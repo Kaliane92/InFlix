@@ -1,0 +1,29 @@
+.light {
+    --menubg: #FFFFFF;
+    --bg: #F4F4F4;
+    --thumb: #0F0F0F;
+    --color:#F4F4F4;
+    --form: #FFFFFF;
+    --placeholder: #606572;
+    --dégradé: linear-gradient(45deg,#16C027,#16A49B);
+    --colormenu: #20825E;
+    --colormenuhover: #159440;
+    --check: #e4b417;
+    --lighticon: none;
+    --shadow: #00000015;
+}
+
+.dark {
+    --menubg: #1E1E1E;
+    --bg: #2E2E2E;
+    --thumb: #F4F4F4;
+    --color:#FFFFFF;
+    --form: #dbdbdb;
+    --placeholder: #606572;
+    --dégradé: linear-gradient(45deg,#16C027,#16A49B);
+    --colormenu: #F4F4F4;
+    --colormenuhover: #159440;
+    --check: #0e1936;
+    --darkicon: none;
+    --shadow: #00000033;
+}

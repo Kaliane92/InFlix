@@ -1,0 +1,42 @@
+
+/* Categories */
+
+.categories {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    gap: 15px;
+  }
+  
+  .categories a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 1.8rem;
+    color: var(--thumb);
+    height: 100%;
+    text-decoration: none;
+  }
+  
+  .categories a:nth-child(1) {
+    justify-content: flex-end;
+  }
+  
+  .categories a:nth-child(3) {
+    justify-content: flex-start;
+  }
+  
+  .categories a:hover {
+    font-weight: 600;
+  }
+  
+  .selected {
+    font-weight: 600;
+    border-bottom: solid 2px var(--thumb);
+  }
+  
+  /* ---------- */
+  

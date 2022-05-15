@@ -1,0 +1,45 @@
+.classe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: fit-content;
+    border: solid 1px white;
+    padding: 5px;
+}
+
+.containerClasse {
+    display: flex;
+}
+
+.containerEleve {
+    margin: 0 5px;
+}
+
+.containerEleve input {
+    justify-content: flex-end;
+}
+
+.styleName,
+.styleFirstName {
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    height: 100%;
+}
+
+.content1 {
+    /* background: rgb(67, 56, 170); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.main {
+    height: 100%;
+}

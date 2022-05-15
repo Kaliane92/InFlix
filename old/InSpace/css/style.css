@@ -1,0 +1,10 @@
+@import url(./reset.css);
+@import url(./header.css);
+@import url(./main.css);
+
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}

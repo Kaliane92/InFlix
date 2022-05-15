@@ -1,0 +1,334 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-top: 7%;
+}
+
+.visible {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 15%;
+    padding-bottom: 2%;
+    gap: 4px;
+}
+
+.content h3, .content h4 {
+    font-weight: 300;
+}
+
+.ligne {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 0 20px 0;
+}
+
+.theme {
+    padding-left: 40px;
+}
+
+.publisher {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.publisher h3 {
+    color: var(--thumb);
+}
+
+
+#wizarding_world_logo {
+    fill: var(--thumb);
+    max-height: 56px;
+    overflow: initial;
+}
+
+.themename {
+    display: flex;
+}
+
+.thumbnails {
+    display: flex;
+    position: relative;
+    padding-left: 40px;
+    /* overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;  */
+}
+
+/* .thumbnails::-webkit-scrollbar {
+    display: none;
+} */
+
+.slides {
+    display: flex;
+    gap: 44px;
+    transition: 0.25s ease-in-out;
+}
+
+.btn-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    height: 100%;
+    width: 100px;
+    background: var(--dégradé);
+    transition: 0.2s ease 0s;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.btn-slide svg {
+    fill: white;
+    max-height: 56px;
+}
+
+.btn-slide:hover {
+    opacity: 0.8;
+}
+
+.slide-right {
+    right: 0;
+}
+
+.slide-left {
+    left: 0;
+}
+
+.thumbnails a {
+    text-decoration: none;
+    color: var(--thumb);
+    transition: 0.2s ease;
+}
+
+.thumbnails h4 {
+    margin-left: 8px;
+}
+
+.thumbnails a img {
+    transition: 0.2s ease;
+    border: solid 4px transparent;
+    background: var(--transparent);
+    width: 428px;
+    height: 244px;
+    border-radius: 26px;
+}
+
+.thumbnails a:focus-visible,
+.thumbnails a:hover {
+    outline: none;
+    transform: scale(1.02);
+}
+
+.thumbnails a:focus-visible > img,
+.thumbnails a:hover > img{
+    border: solid 4px transparent;
+    background: var(--dégradé);
+}
+
+.thumbnails a:focus-visible > h4,
+.thumbnails a:hover > h4 {
+    font-weight: 600;
+}
+
+.thumbnails a:-moz-focusring > img {
+    border: solid 4px transparent;
+    background: var(--dégradé);
+}
+
+.thumbnails a:-moz-focusring > h4{
+    font-weight: 600;
+}
+
+.movie {
+    padding-top: 117px;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-image: var(--moviebg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#side {
+    display: flex;
+    justify-self: flex-end;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+}
+
+.movie-infos {
+    gap: 20px;
+    padding: 44px 100px 0 100px;
+    height: 100%;
+    color: var(--color);
+    font-size: 1.8rem;
+}
+
+.titleimg {
+    padding: 5%;
+    width: 100%;
+    height: auto;
+}
+
+.bpanther {
+    align-self: center;
+    width: 70%;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.title h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.summary {
+    font-size: 1.6rem;
+}
+
+.data {
+    display: flex;
+    gap: 24px;
+}
+
+.btn-movie {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding: 40px;
+    font-size: 2rem;
+}
+
+.btn-play,
+.btn-watchlist {
+    border: none;
+    padding: 15px 40px;
+    border-radius: 8px;
+    font-size: 1.8rem;
+    color: var(--color);
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.btn-play {
+    background: var(--dégradé);
+}
+
+.btn-watchlist {
+    background: var(--placeholder);
+}
+
+.btn-play:hover,
+.btn-watchlist:hover {
+    transform: scale(1.05);
+}
+
+.player-container {
+    background-color: black;
+    padding-top: 117px;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    max-height: 100%;
+}
+
+#filters {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+    padding: 24px 0;
+    background: var(--bg);
+    z-index: 1;
+}
+
+.form1 {
+    display: flex;
+    background-color: var(--form);
+    border-radius: 10px;
+}
+
+.form1:nth-child(1) {
+    justify-content: flex-end;
+}
+.form1:nth-child(2) {
+    justify-content: center;
+}
+.form1:nth-child(3) {
+    justify-content: flex-start;
+}
+
+.scroll-serie {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 10px;
+    gap: 50px;
+}
+
+
+.cover {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: fit-content;
+    cursor: pointer;
+    transition: 0.2s ease;                                      
+}
+
+.cover img {
+    border: solid 4px transparent;
+    background: var(--transparent);
+    width: 200px;
+    height: auto;
+}
+
+.cover h4 {
+    display: flex;
+    width: fit-content;
+    color: var(--thumb);
+    margin-left: 2px;
+}
+
+
+.cover:focus-visible,
+.cover:hover {
+    outline: none;
+    transform: scale(1.02);
+}
+
+.cover:focus-visible > img,
+.cover:hover > img{
+    border: solid 4px transparent;
+    border-radius: 12px;
+    background: var(--dégradé);
+}
+
+.cover:focus-visible > h4,
+.cover:hover > h4 {
+    font-weight: 600;
+}
+
+
+/* ---------- Gestion Tablette ---------- */
+
+
+/* ---------- Gestion Smartphone ---------- */

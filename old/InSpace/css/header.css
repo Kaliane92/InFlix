@@ -1,0 +1,248 @@
+@import url(colors.css);
+
+.menu {
+    position: fixed;
+    height: 100%;
+    max-height: 100vh;
+    max-width: 250px;
+    width: 6.5%;
+    display: flex;
+    flex-direction: column;
+    background: var(--menubg);
+    /* box-shadow: 0px 4px 12px 0 #00000015;
+    -moz-box-shadow: 0px 4px 12px 0 #00000015;
+    -webkit-box-shadow: 0px 4px 12px 0 #00000015; */
+    transition: 0.15s ease-in;
+    z-index: 3;
+}
+
+.menu:hover {
+    width: 13%;
+    transition: 0.15s ease-out;
+}
+
+.logo {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    padding: 0 0;
+    width: 100%;
+    min-height: 77px;
+}
+
+.logoicon {
+    width: 76px;
+    height: auto;
+}
+
+
+.favs {
+    display: flex;
+    flex-grow: 4;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-self: stretch;
+    gap: 40px;
+    padding: 35%;
+}
+
+.settings {
+    display: flex;
+    flex-grow: 4;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    align-self: stretch;
+    gap: 40px;
+    padding: 35%;
+}
+
+.icon {
+    max-height: 56px;
+    min-width: 28px;
+    height: 2.2rem;
+}
+
+.logo .icon {
+    justify-self: center;
+    align-self: center;
+}
+
+.item-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16%;
+    gap: 26px;
+}
+
+.settings .item-menu:last-child {
+    gap: 14px;
+}
+
+.item-menu p {
+    display: none;
+    font-size: 1.8rem;
+    margin-bottom: 0;
+}
+
+.item-menu .icon {
+    fill: var(--colormenuhover);
+}
+
+.item-menu:focus-visible > .menu {
+    width: 13%;
+    transition: 0.15s ease-out;
+}
+
+.item-menu:focus-visible {
+    outline: var(--thumb);
+    -moz-outline-radius: 50%;
+}
+
+.item-menu:hover {
+    width: fit-content;
+    border-radius: 29px;
+    background: var(--dégradé);
+}
+
+.item-menu:hover>p,
+.item-menu:hover>.icon {
+    fill: var(--color);
+    color: var(--color);
+}
+
+.menu a:hover>p {
+    font-weight: 600;
+}
+
+.selected p {
+    color: var(--bg);
+}
+
+.home {
+    width: fit-content;
+}
+
+.menu a {
+    text-decoration: none;
+    color: var(--colormenu);
+}
+
+.menu:hover p {
+    display: block;
+}
+
+.menu:hover a {
+    width: 100%;
+    min-width: 168px;
+}
+
+.menu:hover .selected {
+    padding: 14px 10px;
+}
+
+.item-menu:hover {
+    color: var(--colormenuhover);
+}
+
+.darkicon {
+    display: block;
+    display: var(--darkicon);
+}
+
+.lighticon {
+    display: block;
+    display: var(--lighticon);
+}
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: none;
+    width: 52px;
+    min-width: 52px;
+    height: 26px;
+    min-height: 26px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--slideroff);
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: var(--slideron);
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px var(--slideron);
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.menu:hover .switch {
+    display: inline-block;
+}
+
+
+@media screen and (max-width: 1440px) {
+    .logo {
+        padding: 0 16%;
+    }
+    .logoicon {
+        width: 54px;
+    }
+    .scroll-serie {
+        gap: 20px;
+    }
+}
+
+/* ---------- Gestion Tablette ---------- */
+
+
+/* ---------- Gestion Smartphone ---------- */

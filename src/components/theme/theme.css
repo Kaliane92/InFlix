@@ -1,0 +1,16 @@
+.theme {
+    padding-left: 40px;
+}
+
+.publisher {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.publisher h3 {
+    font-weight: 300;
+    color: var(--thumb);
+}

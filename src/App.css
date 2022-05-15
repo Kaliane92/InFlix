@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url(./colors.css);
+
+/* ------------------ RESET ------------------ */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+@media (orientation: landscape) {
+  /* ------------------------------------------- */
+
+  html {
+    /* 62.5% of 16px base font size is 10px */
+    font-size: 62.5%;
+    font-size: 10px;
+  }
+  
+  html::-webkit-scrollbar {
+    display: none;
+    scroll-behavior: smooth;
+  }
+
+  .App {
+    text-align: center;
+  }
+
+  #root {
+    font-size: 1.6rem; /* 16px */
+    /* width: 100vw;
+    height: 100vh; */
+    background: var(--bg);
+  }
+
+  #root::-webkit-scrollbar {
+    display: none;
+    scroll-behavior: smooth;
+  }
+
+  .light,
+  .dark {
+    width: 100vw;
+    height: 100vh;
+    overflow-y: scroll;
+    background: var(--bg);
+  }
+
+  .light::-webkit-scrollbar,
+  .dark::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Search */
+
+  .search {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    width: 100%;
+    z-index: 2;
+    height: fit-content;
+    max-height: 118px;
+    background: var(--bg);
+    box-shadow: 0px 4px 12px 0 var(--shadow);
+    -moz-box-shadow: 0px 4px 12px 0 var(--shadow);
+    -webkit-box-shadow: 0px 4px 12px 0 var(--shadow);
+  }
+
+  /* Categories */
+
+  .categories {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    gap: 15px;
+    padding-left: 6%;
+  }
+
+  .categories a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 1.8rem;
+    color: var(--thumb);
+    height: 100%;
+    text-decoration: none;
+  }
+
+  .categories a:nth-child(1) {
+    justify-content: flex-end;
+  }
+
+  .categories a:nth-child(3) {
+    justify-content: flex-start;
+  }
+
+  .categories a:hover {
+    font-weight: 600;
+  }
+
+  .selected {
+    font-weight: 600;
+    border-bottom: solid 2px var(--thumb);
+  }
+
+  /* ---------- */
+
+  /* - spacer - */
+
+  .spacer {
+    flex-grow: 3;
+  }
+
+  /* ---------- */
+
+  .content {
+    padding-top: 118px;
+    padding-left: 6.5%;
+    overflow: hidden;
+  }
+}
+
+@media (orientation: portrait) {
+
+  html {
+    /* 62.5% of 16px base font size is 10px */
+    font-size: 62.5%;
+    font-size: 10px;
+  }
+  
+  html::-webkit-scrollbar {
+    display: none;
+    scroll-behavior: smooth;
+  }
+
+  .menu {
+    display: none;
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .light,
+  .dark {
+    width: 100vw;
+    height: 100vh;
+    overflow-y: scroll;
+    background: var(--bg);
+  }
+
+  .spacer {
+    display: none;
+  }
+
+  .search {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    width: 100%;
+    z-index: 2;
+    height: 12%;
+    background: var(--bg);
+    box-shadow: 0px 4px 12px 0 var(--shadow);
+    -moz-box-shadow: 0px 4px 12px 0 var(--shadow);
+    -webkit-box-shadow: 0px 4px 12px 0 var(--shadow);
+  }
+
+  .content {
+    padding-top: 20%;
+  }
+}

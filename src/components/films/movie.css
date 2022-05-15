@@ -1,0 +1,89 @@
+
+.movie {
+    display: flex;
+    padding-top: 117px;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+#side {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+}
+
+.movie-infos {
+    gap: 20px;
+    padding: 2% 4%;
+    height: 100%;
+    color: var(--color);
+    font-size: 1.8rem;
+}
+
+.titleimg {
+    padding: 5%;
+    width: 100%;
+    height: auto;
+}
+
+.bpanther {
+    align-self: center;
+    width: 70%;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.title h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.summary {
+    font-size: 1.6rem;
+}
+
+.data {
+    display: flex;
+    gap: 24px;
+}
+
+.btn-movie {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding: 40px;
+    font-size: 2rem;
+}
+
+.btn-play,
+.btn-watchlist {
+    border: none;
+    padding: 15px 40px;
+    border-radius: 8px;
+    font-size: 1.8rem;
+    color: var(--color);
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.btn-play {
+    background: var(--dégradé);
+}
+
+.btn-watchlist {
+    background: var(--placeholder);
+}
+
+.btn-play:hover,
+.btn-watchlist:hover {
+    transform: scale(1.05);
+}

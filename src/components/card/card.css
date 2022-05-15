@@ -1,0 +1,47 @@
+@import url('../../colors.css');
+
+.slides a {
+    text-decoration: none;
+    color: var(--thumb);
+    transition: 0.2s ease;
+}
+
+.thumbnails h4 {
+    margin-left: 16px;
+    font-weight: 300;
+}
+
+.slides a img {
+    transition: 0.2s ease;
+    border: solid 4px transparent;
+    background: var(--transparent);
+    width: 428px;
+    height: 244px;
+    border-radius: 26px;
+}
+
+.slides a:focus-visible,
+.slides a:hover {
+    outline: none;
+    transform: scale(1.02);
+}
+
+.slides a:focus-visible > img,
+.slides a:hover > img{
+    border: solid 4px transparent;
+    background: var(--dégradé);
+}
+
+.slides a:focus-visible > h4,
+.slides a:hover > h4 {
+    font-weight: 600;
+}
+
+.slides a:-moz-focusring > img {
+    border: solid 4px transparent;
+    background: var(--dégradé);
+}
+
+.slides a:-moz-focusring > h4{
+    font-weight: 600;
+}

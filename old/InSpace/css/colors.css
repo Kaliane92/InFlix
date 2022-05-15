@@ -1,0 +1,98 @@
+.light:root {
+    --menubg: #FFFFFF;
+    --bg: #F4F4F4;
+    --thumb: #0F0F0F;
+    --color:#F4F4F4;
+    --form: #FFFFFF;
+    --placeholder: #606572;
+    --dégradé: linear-gradient(45deg,#16C027,#16A49B);
+    --colormenu: #20825E;
+    --colormenuhover: #159440;
+    --slideron: #0e1936;
+    --slideroff: #e4b417;
+    --lighticon: none;
+    --shadow: #00000015;
+}
+
+.dark:root {
+    --menubg: #1E1E1E;
+    --bg: #2E2E2E;
+    --thumb: #F4F4F4;
+    --color:#FFFFFF;
+    --form: #dbdbdb;
+    --placeholder: #606572;
+    --dégradé: linear-gradient(45deg,#16C027,#16A49B);
+    --colormenu: #F4F4F4;
+    --colormenuhover: #159440;
+    --slideron: #0e1936;
+    --slideroff: #e4b417;
+    --darkicon: none;
+    --shadow: #00000033;
+}
+
+.eternels:root {
+    --moviebg: url(../img/bgimg/films/bgimg-eternels.png);
+}
+.thor3:root {
+    --moviebg: url(../img/bgimg/films/bgimg-thor3.png);
+}
+.thor2:root {
+    --moviebg: url(../img/bgimg/films/bgimg-thor2.png);
+}
+.thor:root {
+    --moviebg: url(../img/bgimg/films/bgimg-thor.png);
+}
+.blackwidow:root {
+    --moviebg: url(../img/bgimg/films/bgimg-blackwidow.png);
+}
+.homecoming:root {
+    --moviebg: url(../img/bgimg/films/bgimg-homecoming.png);
+}
+.endgame:root {
+    --moviebg: url(../img/bgimg/films/bgimg-endgame.png);
+}
+.infinitywar:root {
+    --moviebg: url(../img/bgimg/films/bgimg-infinitywar.png);
+}
+.panther:root {
+    --moviebg: url(../img/bgimg/films/bgimg-panther.png);
+}
+.captainmarvel:root {
+    --moviebg: url(../img/bgimg/films/bgimg-captainmarvel.png);
+}
+.ultron:root {
+    --moviebg: url(../img/bgimg/films/bgimg-ultron.png);
+}
+.civilwar:root {
+    --moviebg: url(../img/bgimg/films/bgimg-civilwar.png);
+}
+.wintersoldier:root {
+    --moviebg: url(../img/bgimg/films/bgimg-wintersoldier.png);
+}
+.captainamerica:root {
+    --moviebg: url(../img/bgimg/films/bgimg-captainamerica.png);
+}
+.ironman:root {
+    --moviebg: url(../img/bgimg/films/bgimg-ironman.png);
+}
+.ironman2:root {
+    --moviebg: url(../img/bgimg/films/bgimg-ironman2.png);
+}
+.ironman3:root {
+    --moviebg: url(../img/bgimg/films/bgimg-ironman3.png);
+}
+.doctorstrange:root {
+    --moviebg: url(../img/bgimg/films/bgimg-doctorstrange.png);
+}
+.avengers:root {
+    --moviebg: url(../img/bgimg/films/bgimg-avengers.png);
+}
+.gardiens2:root {
+    --moviebg: url(../img/bgimg/films/bgimg-gardiens2.png);
+}
+.gardiensdelagalaxie:root {
+    --moviebg: url(../img/bgimg/films/bgimg-gardiens-de-la-galaxie.png);
+}
+.farfromhome:root {
+    --moviebg: url(../img/bgimg/films/bgimg-farfromhome.png);
+}
