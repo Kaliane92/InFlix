@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import Searchbar from "../searchbar/index";
 import './topmenu.css'
 
@@ -7,9 +7,9 @@ const Topmenu = () => {
     return (
         <nav className="search">
             <div className="categories">
-                <Link to="/films">Films</Link>
-                <Link to="/series">Séries</Link>
-                <Link to="/animes">Animes</Link>
+                <NavLink className={({ isActive }) => isActive ? "selected" : null} to="/films">Films</NavLink>
+                <NavLink className={({ isActive }) => isActive ? "selected" : null} to="/series">Séries</NavLink>
+                <NavLink className={({ isActive }) => isActive ? "selected" : null} to="/animes">Animes</NavLink>
             </div>
             <Searchbar />
             <div className="spacer"></div>

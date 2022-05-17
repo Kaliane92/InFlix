@@ -20,6 +20,7 @@ import Cookies from 'js-cookie';
 import { Routes, Route, Link } from "react-router-dom";
 import { useState } from 'react';
 import Movie from './components/films/movie';
+import Notfound from './components/Notfound';
 
 function App() {
 
@@ -105,6 +106,7 @@ function App() {
       <main>
         <Topmenu />
         <Routes>
+          <Route path="*" element={<Notfound />} />
           <Route path="/" element={<Home />} />
           <Route path="films" element={<Films />} />
           <Route path="films/leseternels" element={<Movie
