@@ -13,12 +13,13 @@ import Series from './components/series/index';
 import Animes from './components/animes/index';
 import Home from './components/home/index';
 import Topmenu from './components/topmenu';
-import Data from './assets/data';
+import dbMarvel from './assets/data';
+import dbSeries from './assets/dataSeries';
 import Cookies from 'js-cookie';
 import { Routes, Route, Link } from "react-router-dom";
 import { useState } from 'react';
 import Movie from './components/films/movie';
-import Serie from './components/series/series';
+import Serie from './components/series/series'
 import Notfound from './components/Notfound';
 
 function App() {
@@ -110,7 +111,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/films" element={<Films />} />
               {
-              Data.map((item, key) => {
+              dbMarvel.map((item, key) => {
                 return (
                   <Route key={key} path={"/films/"+item.title.toLowerCase().normalize('NFD').replace(/([^a-zA-Z ]*)(\s*)/g, "")} element={<Movie
                     logo={item.logo}
@@ -126,6 +127,14 @@ function App() {
                 )
               })}
           <Route path="/series" element={<Series />} />
+              {
+              dbSeries.map((item, key) => {
+                return (
+                  <Route key={key} path={"/series/"+item.title.toLowerCase().normalize('NFD').replace(/([^a-zA-Z ]*)(\s*)/g, "")} element={<Serie
+                    bg={item.bg}
+                  />} />
+                )
+              })}
           <Route path="/animes" element={<Animes />} />
         </Routes>
       </main>

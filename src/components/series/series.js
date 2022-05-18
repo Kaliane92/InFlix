@@ -5,10 +5,10 @@ const Movie = (props) => {
     const bgimg = props.bg;
     return (
         <section className='content movie' id="main-content" style={{backgroundImage: "url("+bgimg+")"}}>
-            <div id="side" className="serie-infos">
+            <div id="sideS" className="serie-infos">
                 
             </div>
-            <div id="side" className="serie-infos">
+            <div id="sideS" className="episodes">
                 
             </div>
         </section>

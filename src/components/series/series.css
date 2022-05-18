@@ -1,5 +1,12 @@
 @import url('../../colors.css');
 
+    #sideS {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        height: 100%;
+    }
+
     .visible {
         display: flex;
         flex-direction: column;
@@ -48,6 +55,14 @@
         gap: 50px;
     }
 
+    .serie-infos {
+        flex-grow: 1;
+    }
+
+    .episodes {
+        display: flex;
+        flex-grow: 2;
+    }
 
     .cover {
         display: flex;
