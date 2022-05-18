@@ -13,7 +13,7 @@ import Series from './components/series/index';
 import Animes from './components/animes/index';
 import Home from './components/home/index';
 import Topmenu from './components/topmenu';
-import dbMarvel from './assets/data';
+import dbMarvel from './assets/marvel';
 import dbSeries from './assets/dataSeries';
 import Cookies from 'js-cookie';
 import { Routes, Route, Link } from "react-router-dom";

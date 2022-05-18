@@ -8,7 +8,7 @@ const dataSeries = [
         "https://res.cloudinary.com/kaliane/image/upload/v1652881975/InFlix/Series/thumb/thumb-arcane_kdpj9y.png"
       ],
       "nb_of_seasons": 1,
-      "year": "2022-01-01T00:00:00.000Z",
+      "year": "2022",
       "synopsis": "Au milieu du conflit entre les villes jumelles de Piltover et Zaun, deux soeurs se battent dans les camps opposés d'une guerre entre technologies magiques et convictions incompatibles.",
       "bg": [
         "6283c977a8cb377c00120749"
@@ -26,7 +26,7 @@ const dataSeries = [
         "https://res.cloudinary.com/kaliane/image/upload/v1652881977/InFlix/Series/thumb/thumb-wandavision_p9asox.png"
       ],
       "nb_of_seasons": 1,
-      "year": "2021-01-01T00:00:00.000Z",
+      "year": "2021",
       "synopsis": "Wanda Maximoff, alias la Sorcière Rouge, et Vision sont des super-héros, qui coulent des jours paisibles dans une banlieue parfaite, jusqu'au jour où Vision commence à soupçonner que tout n'est peut-être pas ce qu'il y paraît.",
       "bg": [
         "6283c977a8cb377c00120749"
@@ -44,7 +44,7 @@ const dataSeries = [
         "https://res.cloudinary.com/kaliane/image/upload/v1652881975/InFlix/Series/thumb/thumb-loki_jqu0j0.png"
       ],
       "nb_of_seasons": 1,
-      "year": "2021-01-01T00:00:00.000Z",
+      "year": "2021",
       "synopsis": "Dans une réalité alternative, Loki s'est échappé avec le Tesseract. Après son évasion, il est emmené auprès du Tribunal des Variations Anachroniques, un organisme qui agit pour arrêter toute personne qui tenterait d'altérer l'éternel flux temporel.",
       "bg": [
         "6283c977a8cb377c00120749"
@@ -62,7 +62,7 @@ const dataSeries = [
         "https://res.cloudinary.com/kaliane/image/upload/v1652881976/InFlix/Series/thumb/thumb-squid_eqolpo.png"
       ],
       "nb_of_seasons": 1,
-      "year": "2021-01-01T00:00:00.000Z",
+      "year": "2021",
       "synopsis": "Des personnes en difficultés financières sont invitées à une mystérieuse compétition de survie. Participant à une série de jeux traditionnels pour enfants, mais avec des rebondissements mortels, elles risquent leur vie pour une grosse somme d'argent.",
       "bg": [
         "6283c977a8cb377c00120749"
@@ -80,7 +80,7 @@ const dataSeries = [
         "https://res.cloudinary.com/kaliane/image/upload/v1652881976/InFlix/Series/thumb/thumb-lupin_yjaswj.png"
       ],
       "nb_of_seasons": 2,
-      "year": "2021-01-01T00:00:00.000Z",
+      "year": "2021",
       "synopsis": "Il y a 25 ans, la vie du jeune Assane Diop est bouleversée lorsque son père meurt après avoir été accusé d'un crime qu'il n'a pas commis. Aujourd'hui, Assane va s'inspirer de son héros, Arsène Lupin, pour le venger.",
       "bg": [
         "6283c977a8cb377c00120749"
@@ -98,7 +98,7 @@ const dataSeries = [
         "https://res.cloudinary.com/kaliane/image/upload/v1652881977/InFlix/Series/thumb/thumb-watchmen_ycqti7.png"
       ],
       "nb_of_seasons": 1,
-      "year": "2019-01-01T00:00:00.000Z",
+      "year": "2019",
       "synopsis": "Les super-héros font partie du quotidien et où l'Horloge de l'Apocalypse -symbole de la tension entre les USA et URSS - indique en permanence 23:55. Suite à l'assassinat d'un de ses collègues Rorschach, un justicier masqué va découvrir un complot.",
       "bg": [
         "6283c977a8cb377c00120749"
@@ -116,7 +116,7 @@ const dataSeries = [
         "https://res.cloudinary.com/kaliane/image/upload/v1652881976/InFlix/Series/thumb/thumb-mandalorian_sepqlp.png"
       ],
       "nb_of_seasons": 2,
-      "year": "2019-01-01T00:00:00.000Z",
+      "year": "2019",
       "synopsis": "Un tireur solitaire voyage dans les contrées les plus reculées de la galaxie, loin du joug de la Nouvelle République.",
       "bg": [
         "6283c977a8cb377c00120749"
@@ -134,7 +134,7 @@ const dataSeries = [
         "https://res.cloudinary.com/kaliane/image/upload/v1652881977/InFlix/Series/thumb/thumb-witcher_ojtqkc.png"
       ],
       "nb_of_seasons": 2,
-      "year": "2019-01-01T00:00:00.000Z",
+      "year": "2019",
       "synopsis": "Hexer Geralt reprend la mission inachevée d'un autre sorceleur dans un royaume traqué par une bête féroce. Yennefer se forge un avenir magique au prix d'un terrible sacrifice.",
       "bg": [
         "6283c977a8cb377c00120749"
@@ -153,7 +153,7 @@ const dataSeries = [
         "https://res.cloudinary.com/kaliane/image/upload/v1652881975/InFlix/Series/thumb/thumb-boys_oounpi.png"
       ],
       "nb_of_seasons": 3,
-      "year": "2019-01-01T00:00:00.000Z",
+      "year": "2019",
       "synopsis": "Lorsque les super-héros abusent de leurs super-pouvoirs au lieu de les utiliser pour faire le bien, les Boys se lancent dans une quête héroïque pour révéler la vérité sur The Seven et Vought, le conglomérat qui couvre leurs sales secrets.",
       "bg": [
         "6283c977a8cb377c00120749"
@@ -171,7 +171,7 @@ const dataSeries = [
         "https://res.cloudinary.com/kaliane/image/upload/v1652881976/InFlix/Series/thumb/thumb-titans_l8gl3b.png"
       ],
       "nb_of_seasons": 3,
-      "year": "2018-01-01T00:00:00.000Z",
+      "year": "2018",
       "synopsis": "Dick Grayson et Rachel Roth se retrouvent impliqués dans une conspiration qui menace la Terre, et s'associent à d'autres jeunes héros pour former une famille de substitution et une équipe de lutte contre le crime.",
       "bg": [
         "6283c977a8cb377c00120749"
@@ -189,7 +189,7 @@ const dataSeries = [
         "https://res.cloudinary.com/kaliane/image/upload/v1652881975/InFlix/Series/thumb/thumb-handmaid_stotpz.png"
       ],
       "nb_of_seasons": 4,
-      "year": "2017-01-01T00:00:00.000Z",
+      "year": "2017",
       "synopsis": "Dans une dictature où la stérilité a frappé les femmes, ces dernières sont divisées en trois catégories : les Epouses, qui dominent la maison, les Marthas, qui l'entretiennent, et les Servantes, dont le rôle est la reproduction.",
       "bg": [
         "6283c977a8cb377c00120749"
@@ -207,7 +207,7 @@ const dataSeries = [
         "https://res.cloudinary.com/kaliane/image/upload/v1652881976/InFlix/Series/thumb/thumb-mrrobot_r38bka.png"
       ],
       "nb_of_seasons": 4,
-      "year": "2015-01-01T00:00:00.000Z",
+      "year": "2015",
       "synopsis": "Elliot Alderson est un jeune informaticien vivant à New York, qui travaille en tant qu'ingénieur en sécurité informatique pour Allsafe Security. Celui-ci luttant constamment contre un trouble d'anxiété sociale et de dépression.",
       "bg": [
         "6283c977a8cb377c00120749"
@@ -225,7 +225,7 @@ const dataSeries = [
         "https://res.cloudinary.com/kaliane/image/upload/v1652881975/InFlix/Series/thumb/thumb-highcastle_z3dfuf.png"
       ],
       "nb_of_seasons": 4,
-      "year": "2015-01-01T00:00:00.000Z",
+      "year": "2015",
       "synopsis": "Et si, après avoir perdu la Seconde Guerre Mondiale, le territoire des Etats-Unis avait été partagé entre l'Empire du Japon et le Reich Nazi ? Voici comment se seraient déroulés les événements.",
       "bg": [
         "6283c977a8cb377c00120749"
@@ -243,7 +243,7 @@ const dataSeries = [
         "https://res.cloudinary.com/kaliane/image/upload/v1652881975/InFlix/Series/thumb/thumb-got_g3vdto.png"
       ],
       "nb_of_seasons": 8,
-      "year": "2011-01-01T00:00:00.000Z",
+      "year": "2011",
       "synopsis": "Neuf familles nobles rivalisent pour le contrôle du Trône de Fer dans les sept royaumes de Westeros. Pendant ce temps, des anciennes créatures mythiques oubliées reviennent pour faire des ravages.",
       "bg": [
         "https://res.cloudinary.com/kaliane/image/upload/v1652882550/InFlix/Series/bgimg/bgimg-got_aitvka.jpg"
@@ -261,7 +261,7 @@ const dataSeries = [
         "https://res.cloudinary.com/kaliane/image/upload/v1652881977/InFlix/Series/thumb/thumb-wire_ztfykt.png"
       ],
       "nb_of_seasons": 5,
-      "year": "2002-01-01T00:00:00.000Z",
+      "year": "2002",
       "synopsis": "Un agent aux homicides et un détective aux narcotiques collaborent afin de démanteler une opération. La criminalité dans la ville de Baltimore, à travers la vision de ceux qui la vivent au quotidien.",
       "bg": [
         "6283c977a8cb377c00120749"

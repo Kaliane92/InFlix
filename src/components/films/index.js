@@ -1,21 +1,20 @@
 import React from "react";
 import Slider from '../slider/index';
+import Logos from '../../assets/logos'
 
 const Films = () => {
     return (
         <section className='content'>
-          <Slider
-            publisher='Marvel'
-          />
-          <Slider
-            publisher='Wizarding World'
-          />
-          <Slider
-            publisher='Star Wars'
-          />
-          <Slider
-            publisher='Tolkien'
-          />
+        {
+          Logos.map((item) => {
+            return (
+              <Slider
+                logo={item.logo}
+                publisher={item.publisher}
+              />
+            )
+          })
+        }
         </section>
     )
 }

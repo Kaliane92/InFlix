@@ -2,6 +2,11 @@
     padding-left: 40px;
 }
 
+.themelogo {
+    height: 56px;
+    fill: black;
+}
+
 .publisher {
     display: flex;
     justify-content: flex-start;

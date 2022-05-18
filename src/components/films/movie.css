@@ -38,7 +38,7 @@
 
 .title {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     gap: 20px;
 }
 

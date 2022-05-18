@@ -11,15 +11,8 @@
         display: flex;
         position: relative;
         padding-left: 40px;
-        /* overflow-x: scroll;
-        -ms-overflow-style: none;
-        scrollbar-width: none;  */
     }
-
-    /* .thumbnails::-webkit-scrollbar {
-        display: none;
-    } */
-
+    
     .slides {
         display: flex;
         gap: 44px;

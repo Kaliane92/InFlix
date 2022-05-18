@@ -1,6 +1,4 @@
-// ?key=627c2d85e8128861fcf3d249
-
-const data = [
+const marvel = [
     {
         "_id": "627c1b6da8cb377c00110c7c",
         "title": "Les Éternels",
@@ -10,8 +8,8 @@ const data = [
         "background": [
           "https://res.cloudinary.com/kaliane/image/upload/v1652879472/InFlix/Marvel/bgimg-eternels_gcudpt.png"
         ],
-        "release-year": "2021-01-01T00:00:00.000Z",
-        "duration": "1970-01-01T02:36:00.000Z",
+        "release-year": "2021",
+        "duration": "2:36:00",
         "synospis": "La réapparition mystérieuse des Déviants, des créatures monstrueuses censées avoir disparu depuis des siècles, contraint les Éternels à se retrouver pour défendre une fois de plus l’Humanité.",
         "logo": [
           "https://res.cloudinary.com/kaliane/image/upload/v1652880906/InFlix/Marvel/titleimg-eternels_vg9k0b.png"
@@ -36,8 +34,8 @@ const data = [
         "background": [
           "https://res.cloudinary.com/kaliane/image/upload/v1652879470/InFlix/Marvel/bgimg-blackwidow_pa6r8z.png"
         ],
-        "release-year": "2021-01-01T00:00:00.000Z",
-        "duration": "1970-01-01T02:30:00.000Z",
+        "release-year": "2021",
+        "duration": "2:30:00",
         "synospis": "Natasha Romanoff, alias Black Widow, revisite les moments les plus sombres de sa vie quand une sinistre conspiration liée à son passé fait surface. Poursuivie par une force déterminée à l'anéantir, Natasha est confrontée à son passé d'espionne et aux relations désastreuses qui ont jalonné sa vie longtemps avant qu'elle ne devienne un Avenger.",
         "logo": [
           "https://res.cloudinary.com/kaliane/image/upload/v1652880908/InFlix/Marvel/titleimg-widow_nnfmpp.png"
@@ -62,8 +60,8 @@ const data = [
         "background": [
           "https://res.cloudinary.com/kaliane/image/upload/v1652879473/InFlix/Marvel/bgimg-farfromhome_pvhz3s.png"
         ],
-        "release-year": "2019-01-01T00:00:00.000Z",
-        "duration": "1970-01-01T02:04:00.000Z",
+        "release-year": "2019",
+        "duration": "2:04:00",
         "synospis": "Peter Parker revient dans Spider-Man: Far From Home, à la suite de Avengers: Endgame. Notre gentil super-héros décide d'accompagner ses meilleurs amis, Ned, MJ, et le reste de la troupe à un voyage en Europe. Malheureusement, le projet de Peter d'oublier ses exploits le temps de quelques semaines est compromis lorsqu'il accepte à contre-cœur d'aider Nick Fury à percer le mystère d'attaques de...",
         "logo": [
           "https://res.cloudinary.com/kaliane/image/upload/v1652880906/InFlix/Marvel/titleimg-farfromhome_hoygbs.png"
@@ -88,8 +86,8 @@ const data = [
         "background": [
           "https://res.cloudinary.com/kaliane/image/upload/v1652879472/InFlix/Marvel/bgimg-endgame_tpbewz.png"
         ],
-        "release-year": "2019-01-01T00:00:00.000Z",
-        "duration": "1970-01-01T03:03:00.000Z",
+        "release-year": "2019",
+        "duration": "3:03:00",
         "synospis": "Après les événements dévastateurs d'Avengers : Infinity War, l'univers est en ruine. Avec l'aide des alliés restants, les Avengers se rassemblent une fois de plus afin d'inverser les actions de Thanos et de rétablir l'équilibre dans l'univers.",
         "logo": [
           "https://res.cloudinary.com/kaliane/image/upload/v1652880906/InFlix/Marvel/titleimg-endgame_qm9mzv.png"
@@ -114,8 +112,8 @@ const data = [
         "background": [
           "https://res.cloudinary.com/kaliane/image/upload/v1652879471/InFlix/Marvel/bgimg-captainmarvel_ulvsqz.png"
         ],
-        "release-year": "2019-01-01T00:00:00.000Z",
-        "duration": "1970-01-01T02:03:00.000Z",
+        "release-year": "2019",
+        "duration": "2:03:00",
         "synospis": "Captain Marvel des Studios Marvel est une aventure qui se situe à une période inédite dans l'histoire de l'univers cinématographique Marvel au cours de laquelle Carol Danvers devient l'une des plus puissantes héroïnes de tous les temps.",
         "logo": [
           "https://res.cloudinary.com/kaliane/image/upload/v1652880905/InFlix/Marvel/titleimg-captainmarvel_nks9rm.png"
@@ -140,8 +138,8 @@ const data = [
         "background": [
           "https://res.cloudinary.com/kaliane/image/upload/v1652879473/InFlix/Marvel/bgimg-infinitywar_yx1quz.png"
         ],
-        "release-year": "2018-01-01T00:00:00.000Z",
-        "duration": "1970-01-01T02:31:00.000Z",
+        "release-year": "2018",
+        "duration": "2:31:00",
         "synospis": "Le tout-puissant Thanos s'apprête à détruire l'univers. Les Avengers et leurs alliés superhéros risquent le tout pour le tout lors du combat le plus mortel de tous les temps.",
         "logo": [
           "https://res.cloudinary.com/kaliane/image/upload/v1652880907/InFlix/Marvel/titleimg-infinitywar_xzlwso.png"
@@ -166,8 +164,8 @@ const data = [
         "background": [
           "https://res.cloudinary.com/kaliane/image/upload/v1652879474/InFlix/Marvel/bgimg-panther_coprg8.png"
         ],
-        "release-year": "2018-01-01T00:00:00.000Z",
-        "duration": "1970-01-01T02:16:00.000Z",
+        "release-year": "2018",
+        "duration": "2:16:00",
         "synospis": "Lorsque le conflit qui oppose le jeune roi T'Challa à un vieil ennemi met en péril le destin du Wakanda et celui du monde entier, le roi doit libérer le pouvoir de Black Panther pour les sauver.",
         "logo": [
           "https://res.cloudinary.com/kaliane/image/upload/v1652880905/InFlix/Marvel/titleimg-blackpanther_nyzpdm.png"
@@ -192,8 +190,8 @@ const data = [
         "background": [
           "https://res.cloudinary.com/kaliane/image/upload/v1652879475/InFlix/Marvel/bgimg-thor3_pbox23.png"
         ],
-        "release-year": "2017-01-01T00:00:00.000Z",
-        "duration": "1970-01-01T02:11:00.000Z",
+        "release-year": "2017",
+        "duration": "2:11:00",
         "synospis": "Thor entre dans une course contre la montre pour arrêter le Ragnarok - la destruction et la fin de la civilisation Asgardienne par l'impitoyable Hela.",
         "logo": [
           "https://res.cloudinary.com/kaliane/image/upload/v1652880908/InFlix/Marvel/titleimg-thor3_iviuht.png"
@@ -218,8 +216,8 @@ const data = [
         "background": [
           "https://res.cloudinary.com/kaliane/image/upload/v1652879585/InFlix/Marvel/thumb-spiderman_x2fq0g.png"
         ],
-        "release-year": "2017-01-01T00:00:00.000Z",
-        "duration": "1970-01-01T02:13:00.000Z",
+        "release-year": "2017",
+        "duration": "2:13:00",
         "synospis": "Après ses spectaculaires débuts dans Captain America : Civil War, le jeune Peter Parker découvre peu à peu sa nouvelle identité, celle de Spider-Man, le super-héros lanceur de toile. Galvanisé par son expérience avec les Avengers, Peter rentre chez lui auprès de sa tante May, sous l’œil attentif de son nouveau mentor, Tony Stark. Il s’efforce de reprendre sa vie d’avant, mais au fond de lui ...",
         "logo": [
           "https://res.cloudinary.com/kaliane/image/upload/v1652880906/InFlix/Marvel/titleimg-homecoming_cxfhzz.png"
@@ -244,8 +242,8 @@ const data = [
         "background": [
           "https://res.cloudinary.com/kaliane/image/upload/v1652879472/InFlix/Marvel/bgimg-gardiens2_p2gcyu.png"
         ],
-        "release-year": "2017-01-01T00:00:00.000Z",
-        "duration": "1970-01-01T02:15:00.000Z",
+        "release-year": "2017",
+        "duration": "2:15:00",
         "synospis": "Les Gardiens de la Galaxie doivent lutter pour garder leur nouvelle famille unie lorsqu'ils percent le mystère de la véritable filiation de Peter Quill.",
         "logo": [
           "https://res.cloudinary.com/kaliane/image/upload/v1652880906/InFlix/Marvel/titleimg-gardiens2_hrj6l7.png"
@@ -270,8 +268,8 @@ const data = [
         "background": [
           "https://res.cloudinary.com/kaliane/image/upload/v1652879471/InFlix/Marvel/bgimg-doctorstrange_pv27cw.png"
         ],
-        "release-year": "2016-01-01T00:00:00.000Z",
-        "duration": "1970-01-01T01:56:00.000Z",
+        "release-year": "2016",
+        "duration": "1:56:00",
         "synospis": "Un médecin en quête de guérison découvre le pouvoir de la magie à Kamar-Taj, un lieu mystérieux où va se dérouler un combat contre de sombres forces occultes résolues à détruire notre réalité.",
         "logo": [
           "https://res.cloudinary.com/kaliane/image/upload/v1652880905/InFlix/Marvel/titleimg-doctorstrange_ifv9kf.png"
@@ -296,8 +294,8 @@ const data = [
         "background": [
           "https://res.cloudinary.com/kaliane/image/upload/v1652879471/InFlix/Marvel/bgimg-civilwar_giobit.png"
         ],
-        "release-year": "2016-01-01T00:00:00.000Z",
-        "duration": "1970-01-01T02:29:00.000Z",
+        "release-year": "2016",
+        "duration": "2:29:00",
         "synospis": "Suite à des dommages collatéraux, une demande de mise sous tutelle gouvernementale des Avengers crée un désaccord entre Captain America et Iron Man, et dresse les Avengers les uns contre les autres.",
         "logo": [
           "https://res.cloudinary.com/kaliane/image/upload/v1652880905/InFlix/Marvel/titleimg-civilwar_sjb2sq.png"
@@ -322,8 +320,8 @@ const data = [
         "background": [
           "https://res.cloudinary.com/kaliane/image/upload/v1652879475/InFlix/Marvel/bgimg-ultron_w0kqfq.png"
         ],
-        "release-year": "2015-01-01T00:00:00.000Z",
-        "duration": "1970-01-01T02:22:00.000Z",
+        "release-year": "2015",
+        "duration": "2:22:00",
         "synospis": "L'enfer est pavé de bonnes intentions quand Tony Stark (Robert Downey Jr.) crée malgré lui un monstre d'intelligence artificielle pour qui la paix passe par l'extinction. Les Avengers doivent l'arrêter et sauver l'humanité… s'ils le peuvent !",
         "logo": [
           "https://res.cloudinary.com/kaliane/image/upload/v1652880908/InFlix/Marvel/titleimg-ultron_rfjvft.png"
@@ -348,8 +346,8 @@ const data = [
         "background": [
           "https://res.cloudinary.com/kaliane/image/upload/v1652879473/InFlix/Marvel/bgimg-gardiens-de-la-galaxie_rupaw6.png"
         ],
-        "release-year": "2014-01-01T00:00:00.000Z",
-        "duration": "1970-01-01T02:02:00.000Z",
+        "release-year": "2014",
+        "duration": "2:02:00",
         "synospis": "Après Iron Man, Thor, Captain America, et les Avengers, les studios Marvel vous présentent une nouvelle équipe, les Gardiens de la Galaxie, dans une épopée intersidérale qui propulse l'univers cinématographique Marvel dans le cosmos.",
         "logo": [
           "https://res.cloudinary.com/kaliane/image/upload/v1652880906/InFlix/Marvel/titleimg-gardiens-galaxie_t7qojz.png"
@@ -374,8 +372,8 @@ const data = [
         "background": [
           "https://res.cloudinary.com/kaliane/image/upload/v1652879475/InFlix/Marvel/bgimg-wintersoldier_jqaywm.png"
         ],
-        "release-year": "2014-01-01T00:00:00.000Z",
-        "duration": "1970-01-01T02:16:00.000Z",
+        "release-year": "2014",
+        "duration": "2:16:00",
         "synospis": "Dans Captain America: Le Soldat de l'Hiver, Steve Rogers (Chris Evans) s'allie à Natasha Romanoff (Scarlett Johansson), alias la Veuve noire, pour combattre un ennemi puissant et obscur de nos jours à Washington.",
         "logo": [
           "https://res.cloudinary.com/kaliane/image/upload/v1652880908/InFlix/Marvel/titleimg-wintersoldier_ktlkhy.png"
@@ -400,8 +398,8 @@ const data = [
         "background": [
           "https://res.cloudinary.com/kaliane/image/upload/v1652879475/InFlix/Marvel/bgimg-thor2_exb5zi.png"
         ],
-        "release-year": "2013-01-01T00:00:00.000Z",
-        "duration": "1970-01-01T01:52:00.000Z",
+        "release-year": "2013",
+        "duration": "1:52:00",
         "synospis": "Thor, le dieu du Tonnerre tente de ramener l'ordre dans le cosmos, mais des créatures ancestrales menées par le maléfique Malekith sont de retour pour plonger l'univers dans les ténèbres.",
         "logo": [
           "https://res.cloudinary.com/kaliane/image/upload/v1652880907/InFlix/Marvel/titleimg-thor2_mxqjg6.png"
@@ -426,8 +424,8 @@ const data = [
         "background": [
           "https://res.cloudinary.com/kaliane/image/upload/v1652879475/InFlix/Marvel/bgimg-ironman3_fzxdbi.png"
         ],
-        "release-year": "2013-01-01T00:00:00.000Z",
-        "duration": "1970-01-01T02:10:00.000Z",
+        "release-year": "2013",
+        "duration": "2:10:00",
         "synospis": "La meilleure aventure d'Iron Man à ce jour, avec Robert Downey Jr. et Gwyneth Paltrow. Quand l'univers de Tony Stark alias Iron Man s'écroule autour de lui, une question le hante : est-ce le héros qui fait l'armure ou l'armure qui fait le héros.",
         "logo": [
           "https://res.cloudinary.com/kaliane/image/upload/v1652880907/InFlix/Marvel/titleimg-ironman3_qzbng9.png"
@@ -452,8 +450,8 @@ const data = [
         "background": [
           "https://res.cloudinary.com/kaliane/image/upload/v1652879471/InFlix/Marvel/bgimg-avengers_ssdim7.png"
         ],
-        "release-year": "2012-01-01T00:00:00.000Z",
-        "duration": "1970-01-01T02:24:00.000Z",
+        "release-year": "2012",
+        "duration": "2:24:00",
         "synospis": "Marvel entre dans l'histoire du cinéma en réunissant pour la toute première fois cette équipe unique de super-héros dans un blockbuster plein d'action ! Regorgeant d'effets spéciaux spectaculaires, Avengers va vous en mettre plein la vue !",
         "logo": [
           "https://res.cloudinary.com/kaliane/image/upload/v1652880905/InFlix/Marvel/titleimg-avengers_y70aog.png"
@@ -478,8 +476,8 @@ const data = [
         "background": [
           "https://res.cloudinary.com/kaliane/image/upload/v1652879471/InFlix/Marvel/bgimg-captainamerica_b4srpt.png"
         ],
-        "release-year": "2011-01-01T00:00:00.000Z",
-        "duration": "1970-01-01T02:05:00.000Z",
+        "release-year": "2011",
+        "duration": "2:05:00",
         "synospis": "Après avoir été jugé inapte au service militaire, Steve Rogers se porte volontaire pour participer à un projet de recherche top secret qui va le transformer en Captain America.",
         "logo": [
           "https://res.cloudinary.com/kaliane/image/upload/v1652880905/InFlix/Marvel/titleimg-captainamerica_ttur3w.png"
@@ -504,8 +502,8 @@ const data = [
         "background": [
           "https://res.cloudinary.com/kaliane/image/upload/v1652879474/InFlix/Marvel/bgimg-thor_cmlvzu.png"
         ],
-        "release-year": "2011-01-01T00:00:00.000Z",
-        "duration": "1970-01-01T01:55:00.000Z",
+        "release-year": "2011",
+        "duration": "1:55:00",
         "synospis": "Thor, un dieu aussi puissant qu'arrogant, est banni du royaume d'Asgard et envoyé sur Terre, où il va protéger les hommes des forces du mal.",
         "logo": [
           "https://res.cloudinary.com/kaliane/image/upload/v1652880907/InFlix/Marvel/titleimg-thor_hi95wm.png"
@@ -530,8 +528,8 @@ const data = [
         "background": [
           "https://res.cloudinary.com/kaliane/image/upload/v1652879473/InFlix/Marvel/bgimg-ironman2_sxfngy.png"
         ],
-        "release-year": "2010-01-01T00:00:00.000Z",
-        "duration": "1970-01-01T02:05:00.000Z",
+        "release-year": "2010",
+        "duration": "2:05:00",
         "synospis": "Tony Stark a révélé au monde qu'il était lui-même Iron Man et pense avoir ramené la paix dans le monde. Il réalise bientôt qu'un fou dangereux possédant la même technologie que lui veut le tuer, mais aussi qu'il est mourant.",
         "logo": [
           "https://res.cloudinary.com/kaliane/image/upload/v1652880907/InFlix/Marvel/titleimg-ironman2_dzv5fr.png"
@@ -556,8 +554,8 @@ const data = [
         "background": [
           "https://res.cloudinary.com/kaliane/image/upload/v1652879475/InFlix/Marvel/bgimg-ironman_zqtowe.png"
         ],
-        "release-year": "2008-01-01T00:00:00.000Z",
-        "duration": "1970-01-01T02:01:00.000Z",
+        "release-year": "2008",
+        "duration": "2:01:00",
         "synospis": "Tony Stark, inventeur de génie, vendeur d'armes et playboy milliardaire, est kidnappé en Afghanistan. Forcé par ses ravisseurs de fabriquer une arme redoutable, il construit en secret une armure high-tech révolutionnaire qu'il utilise pour s'échapper. Comprenant la puissance de cette armure, il décide de l'améliorer et de l'utiliser pour faire régner la justice et protéger les innocents.",
         "logo": [
           "https://res.cloudinary.com/kaliane/image/upload/v1652880907/InFlix/Marvel/titleimg-ironman_noszzr.png"
@@ -575,4 +573,4 @@ const data = [
       }
 ]
 
-export default data;
+export default marvel;
