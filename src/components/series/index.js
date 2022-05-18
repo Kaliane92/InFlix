@@ -1,7 +1,6 @@
 import React from "react";
 import './series.css';
 import { Link } from "react-router-dom";
-import Cover from '../../assets/img/thumb/series/thumb-got.png'
 import Data from '../../assets/dataSeries'
 
 const Series = () => {
@@ -40,7 +39,7 @@ const Series = () => {
                         Data.map((serie, key) => {
                             return (
                                 <Link to={`/series/${serie.title.toLowerCase().normalize('NFD').replace(/([^a-zA-Z ]*)(\s*)/g, "")}`} key={key} className="cover" tabIndex="0">
-                                    <img loading="lazy" src={Cover} alt={serie.title} />
+                                    <img loading="lazy" src={serie.cover} alt={serie.title} />
                                     <h4>{serie.title}</h4>
                                 </Link>
                             )

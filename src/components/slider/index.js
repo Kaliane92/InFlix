@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import { React, useState } from 'react';
 import Card from '../card/index';
 import Theme from '../theme/index';
 import Data from '../../assets/data';
-import thumb from '../../assets/img/thumb/films/thumb-eternels.png';
+/* import thumb from '../../assets/img/thumb/films/thumb-eternels.png'; */
 import themeimg from '../../assets/img/marvel-theme.png';
 import './slider.css';
 
@@ -10,12 +10,27 @@ const Slider = (props) => {
     const pictureWidth = 428+44;
     const [translate, setTranslate] = useState(0);
     let translateCopy = translate;
+    /* const accessKey = "e3f6f4d2a1d7043ebb680c61969eed360a99a"; */
     const [style, setStyle] = useState({transform: `translateX(${translate}px)`});
     const sliding = (n) => {
         (n === 'droite') ? setTranslate(translateCopy -= pictureWidth*2) : setTranslate(translateCopy += pictureWidth*2);
         setStyle({transform: `translateX(${translateCopy}px)`});
     }
-    console.log(Data.length)
+
+    /* curl -i -H "Accept: application/json"\
+     -H "Content-Type: application/json"\
+     -H "x-apikey: 560bd47058e7ab1b2648f4e7"\
+     -X GET "https://rdb-simpledb.restdb.io/rest/product" */
+
+    /* fetch("https://inflix-d2b8.restdb.io/rest/marvel", {
+        body: "",
+        headers: {
+            Accept: "application/json",
+            "Content-Type": "application/json",
+            ApiKey: "6284c0fee8128861fcf3d3f"
+        },
+        method: "GET"
+    }) */
 
     return (
         <>
@@ -50,7 +65,7 @@ const Slider = (props) => {
                             <Card
                                 clé={key}
                                 lien={`/films/${item.title.toLowerCase().normalize('NFD').replace(/([^a-zA-Z ]*)(\s*)/g, "")}`}
-                                miniature={thumb}
+                                miniature={item.thumb}
                                 titre={item.title}
                             />
                         )

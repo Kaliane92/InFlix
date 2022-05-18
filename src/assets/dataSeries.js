@@ -5,7 +5,7 @@ const dataSeries = [
       "_id": "6283f9e0a8cb377c00121222",
       "title": "Arcane",
       "cover": [
-        "6283c70ba8cb377c00120707"
+        "https://res.cloudinary.com/kaliane/image/upload/v1652881975/InFlix/Series/thumb/thumb-arcane_kdpj9y.png"
       ],
       "nb_of_seasons": 1,
       "year": "2022-01-01T00:00:00.000Z",
@@ -23,7 +23,7 @@ const dataSeries = [
       "_id": "6283fc2ba8cb377c00121278",
       "title": "WandaVision",
       "cover": [
-        "6283c710a8cb377c00120712"
+        "https://res.cloudinary.com/kaliane/image/upload/v1652881977/InFlix/Series/thumb/thumb-wandavision_p9asox.png"
       ],
       "nb_of_seasons": 1,
       "year": "2021-01-01T00:00:00.000Z",
@@ -41,7 +41,7 @@ const dataSeries = [
       "_id": "6283faffa8cb377c00121239",
       "title": "Loki",
       "cover": [
-        "6283c70da8cb377c0012070c"
+        "https://res.cloudinary.com/kaliane/image/upload/v1652881975/InFlix/Series/thumb/thumb-loki_jqu0j0.png"
       ],
       "nb_of_seasons": 1,
       "year": "2021-01-01T00:00:00.000Z",
@@ -59,7 +59,7 @@ const dataSeries = [
       "_id": "6283fbb2a8cb377c00121259",
       "title": "Squid Game",
       "cover": [
-        "6283c70fa8cb377c00120710"
+        "https://res.cloudinary.com/kaliane/image/upload/v1652881976/InFlix/Series/thumb/thumb-squid_eqolpo.png"
       ],
       "nb_of_seasons": 1,
       "year": "2021-01-01T00:00:00.000Z",
@@ -77,7 +77,7 @@ const dataSeries = [
       "_id": "6283fb2aa8cb377c0012123d",
       "title": "Lupin",
       "cover": [
-        "6283c70da8cb377c0012070d"
+        "https://res.cloudinary.com/kaliane/image/upload/v1652881976/InFlix/Series/thumb/thumb-lupin_yjaswj.png"
       ],
       "nb_of_seasons": 2,
       "year": "2021-01-01T00:00:00.000Z",
@@ -95,7 +95,7 @@ const dataSeries = [
       "_id": "6283fcb1a8cb377c0012127e",
       "title": "Watchmen",
       "cover": [
-        "6283c710a8cb377c00120714"
+        "https://res.cloudinary.com/kaliane/image/upload/v1652881977/InFlix/Series/thumb/thumb-watchmen_ycqti7.png"
       ],
       "nb_of_seasons": 1,
       "year": "2019-01-01T00:00:00.000Z",
@@ -113,7 +113,7 @@ const dataSeries = [
       "_id": "6283fb52a8cb377c00121241",
       "title": "The Mandalorian",
       "cover": [
-        "6283c70ea8cb377c0012070e"
+        "https://res.cloudinary.com/kaliane/image/upload/v1652881976/InFlix/Series/thumb/thumb-mandalorian_sepqlp.png"
       ],
       "nb_of_seasons": 2,
       "year": "2019-01-01T00:00:00.000Z",
@@ -131,7 +131,7 @@ const dataSeries = [
       "_id": "6283fd7aa8cb377c0012128a",
       "title": "The Witcher",
       "cover": [
-        "6283c711a8cb377c00120718"
+        "https://res.cloudinary.com/kaliane/image/upload/v1652881977/InFlix/Series/thumb/thumb-witcher_ojtqkc.png"
       ],
       "nb_of_seasons": 2,
       "year": "2019-01-01T00:00:00.000Z",
@@ -150,7 +150,7 @@ const dataSeries = [
       "_id": "6283fa30a8cb377c0012122b",
       "title": "The Boys",
       "cover": [
-        "6283c70ba8cb377c00120708"
+        "https://res.cloudinary.com/kaliane/image/upload/v1652881975/InFlix/Series/thumb/thumb-boys_oounpi.png"
       ],
       "nb_of_seasons": 3,
       "year": "2019-01-01T00:00:00.000Z",
@@ -168,7 +168,7 @@ const dataSeries = [
       "_id": "6283fbfea8cb377c00121271",
       "title": "Titans",
       "cover": [
-        "6283c70fa8cb377c00120711"
+        "https://res.cloudinary.com/kaliane/image/upload/v1652881976/InFlix/Series/thumb/thumb-titans_l8gl3b.png"
       ],
       "nb_of_seasons": 3,
       "year": "2018-01-01T00:00:00.000Z",
@@ -186,7 +186,7 @@ const dataSeries = [
       "_id": "6283fa77a8cb377c0012122f",
       "title": "The Handmaid's Tale",
       "cover": [
-        "6283c70ca8cb377c0012070a"
+        "https://res.cloudinary.com/kaliane/image/upload/v1652881975/InFlix/Series/thumb/thumb-handmaid_stotpz.png"
       ],
       "nb_of_seasons": 4,
       "year": "2017-01-01T00:00:00.000Z",
@@ -204,7 +204,7 @@ const dataSeries = [
       "_id": "6283fb85a8cb377c0012124b",
       "title": "Mr. Robot",
       "cover": [
-        "6283c70ea8cb377c0012070f"
+        "https://res.cloudinary.com/kaliane/image/upload/v1652881976/InFlix/Series/thumb/thumb-mrrobot_r38bka.png"
       ],
       "nb_of_seasons": 4,
       "year": "2015-01-01T00:00:00.000Z",
@@ -222,7 +222,7 @@ const dataSeries = [
       "_id": "6283fabaa8cb377c00121233",
       "title": "The Man in the High Castle",
       "cover": [
-        "6283c70ca8cb377c0012070b"
+        "https://res.cloudinary.com/kaliane/image/upload/v1652881975/InFlix/Series/thumb/thumb-highcastle_z3dfuf.png"
       ],
       "nb_of_seasons": 4,
       "year": "2015-01-01T00:00:00.000Z",
@@ -240,13 +240,13 @@ const dataSeries = [
       "_id": "6283c982a8cb377c0012074c",
       "title": "Game of Thrones",
       "cover": [
-        "6283c70ca8cb377c00120709"
+        "https://res.cloudinary.com/kaliane/image/upload/v1652881975/InFlix/Series/thumb/thumb-got_g3vdto.png"
       ],
       "nb_of_seasons": 8,
       "year": "2011-01-01T00:00:00.000Z",
       "synopsis": "Neuf familles nobles rivalisent pour le contrôle du Trône de Fer dans les sept royaumes de Westeros. Pendant ce temps, des anciennes créatures mythiques oubliées reviennent pour faire des ravages.",
       "bg": [
-        "6283c977a8cb377c00120749"
+        "https://res.cloudinary.com/kaliane/image/upload/v1652882550/InFlix/Series/bgimg/bgimg-got_aitvka.jpg"
       ],
       "_created": "2022-05-17T16:12:50.687Z",
       "_changed": "2022-05-17T16:12:50.687Z",
@@ -258,7 +258,7 @@ const dataSeries = [
       "_id": "6283fd10a8cb377c00121284",
       "title": "The Wire",
       "cover": [
-        "6283c710a8cb377c00120716"
+        "https://res.cloudinary.com/kaliane/image/upload/v1652881977/InFlix/Series/thumb/thumb-wire_ztfykt.png"
       ],
       "nb_of_seasons": 5,
       "year": "2002-01-01T00:00:00.000Z",

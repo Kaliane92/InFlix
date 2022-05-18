@@ -12,12 +12,14 @@
     font-size: 1.5rem;
 }
 
-.slides a img {
+.cardImg {
     transition: 0.2s ease;
     border: solid 4px transparent;
     background: var(--transparent);
     width: 428px;
     height: 244px;
+    min-width: 428px;
+    min-height: 244px;
     border-radius: 26px;
 }
 
@@ -27,8 +29,8 @@
     transform: scale(1.02);
 }
 
-.slides a:focus-visible > img,
-.slides a:hover > img{
+.slides a:focus-visible > .cardImg,
+.slides a:hover > .cardImg{
     border: solid 4px transparent;
     background: var(--dégradé);
 }
@@ -38,7 +40,7 @@
     font-weight: 600;
 }
 
-.slides a:-moz-focusring > img {
+.slides a:-moz-focusring > .cardImg {
     border: solid 4px transparent;
     background: var(--dégradé);
 }
