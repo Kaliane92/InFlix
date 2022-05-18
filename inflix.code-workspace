@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "../projet/.git"
 		}
 	],
 	"settings": {}

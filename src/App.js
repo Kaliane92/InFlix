@@ -8,14 +8,14 @@ import Light from './assets/img/svg/light';
 import Settings from './assets/img/svg/settings';
 import EterLogo from "./assets/img/titleimg/films/titleimg-eternels.png";
 import EterBg from "./assets/img/bgimg/films/bgimg-eternels.png";
-import './components/sidebar/sidebar.css'
+import './components/sidebar/sidebar.css';
 
 import Films from './components/films/index';
 import Series from './components/series/index';
 import Animes from './components/animes/index';
 import Home from './components/home/index';
 import Topmenu from './components/topmenu';
-import Data from './assets/data';
+/* import Data from './assets/data'; */
 import Cookies from 'js-cookie';
 import { Routes, Route, Link } from "react-router-dom";
 import { useState } from 'react';
@@ -100,26 +100,27 @@ function App() {
       </header>
 
       {/* ------------------------------------------ */}
+
       {/* ----------- TOPMENU + CONTENT ------------ */}
 
       <main>
         <Topmenu />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="films" element={<Films />} />
-          <Route path="films/leseternels" element={<Movie
-            logo={EterLogo}
-            bg={EterBg}
-            title="Les Éternels"
-            year="2021"
-            duration="2 h 36 m"
-            summary="La réapparition mystérieuse des Déviants, des créatures monstrueuses censées avoir disparu depuis des siècles, contraint les Éternels à se retrouver pour défendre une fois de plus l’Humanité."
-            director="Chloé Zhao"
-            mainRoles="Gemma Chan, Richard Madden, Kumail Nanjiani"
-            genre="Action"
-          />} />
-          <Route path="series" element={<Series />} />
-          <Route path="animes" element={<Animes />} />
+          <Route path="/films" element={<Films />} />
+            <Route path="/films/leseternels" element={<Movie
+              logo={EterLogo}
+              bg={EterBg}
+              title="Les Éternels"
+              year="2021"
+              duration="2 h 36 m"
+              summary="La réapparition mystérieuse des Déviants, des créatures monstrueuses censées avoir disparu depuis des siècles, contraint les Éternels à se retrouver pour défendre une fois de plus l’Humanité."
+              director="Chloé Zhao"
+              mainRoles="Gemma Chan, Richard Madden, Kumail Nanjiani"
+              genre="Action"
+            />} />
+          <Route path="/series" element={<Series />} />
+          <Route path="/animes" element={<Animes />} />
         </Routes>
       </main>
 
