@@ -45,9 +45,10 @@ const Slider = (props) => {
                 }
                 <div className='slides' style={style}>
                 {
-                    Data.map((item) => {
+                    Data.map((item, key) => {
                         return (
                             <Card
+                                clé={key}
                                 lien={`/films/${item.title.toLowerCase().normalize('NFD').replace(/([^a-zA-Z ]*)(\s*)/g, "")}`}
                                 miniature={thumb}
                                 titre={item.title}

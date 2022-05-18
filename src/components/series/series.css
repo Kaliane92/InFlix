@@ -1,0 +1,102 @@
+@import url('../../colors.css');
+
+    .visible {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 15%;
+        padding-bottom: 2%;
+        gap: 4px;
+    }
+
+    .dark::-webkit-scrollbar {
+        display: none;
+    }
+
+    #filters {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 20px;
+        padding: 24px 0;
+        background: var(--bg);
+        z-index: 1;
+    }
+
+    .form1 {
+        display: flex;
+        background-color: var(--form);
+        border-radius: 10px;
+    }
+
+    .form1:nth-child(1) {
+        justify-content: flex-end;
+    }
+    .form1:nth-child(2) {
+        justify-content: center;
+    }
+    .form1:nth-child(3) {
+        justify-content: flex-start;
+    }
+
+    .scroll-serie {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        row-gap: 10px;
+        gap: 50px;
+    }
+
+
+    .cover {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: fit-content;
+        cursor: pointer;
+        text-decoration: none;
+        transition: 0.2s ease;                                      
+    }
+
+    .cover img {
+        border: solid 4px transparent;
+        background: var(--transparent);
+        width: 200px;
+        height: auto;
+    }
+
+    .cover h4 {
+        display: flex;
+        width: fit-content;
+        font-weight: 300;
+        font-size: 1.5rem;
+        color: var(--thumb);
+        margin-left: 2px;
+    }
+
+
+    .cover:focus-visible,
+    .cover:hover {
+        outline: none;
+        transform: scale(1.02);
+    }
+
+    .cover:focus-visible > img,
+    .cover:hover > img{
+        border: solid 4px transparent;
+        border-radius: 12px;
+        background: var(--dégradé);
+    }
+
+    .cover:focus-visible > h4,
+    .cover:hover > h4 {
+        font-weight: 600;
+    }
+
+@media screen and (max-width: 640px) {
+    .scroll-serie {
+        justify-content: center;
+    }
+    
+}
