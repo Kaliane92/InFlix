@@ -1,4 +1,8 @@
 import './App.css';
+import './components/sidebar/sidebar.css';
+import Cookies from 'js-cookie';
+import { Routes, Route, Link } from "react-router-dom";
+import { useState } from 'react';
 
 import logo from './assets/img/svg/logo.svg';
 import Homeicon from './assets/img/svg/home';
@@ -6,27 +10,23 @@ import Favs from './assets/img/svg/favs';
 import Dark from './assets/img/svg/dark';
 import Light from './assets/img/svg/light';
 import Settings from './assets/img/svg/settings';
-import './components/sidebar/sidebar.css';
+
+import Topmenu from './components/topmenu';
+import Home from './components/home/index';
+import Notfound from './components/Notfound';
 
 import Films from './components/films/index';
-import Series from './components/series/index';
-import Animes from './components/animes/index';
-import Home from './components/home/index';
-import Topmenu from './components/topmenu';
-import dbMarvel from './assets/marvel';
-import dbSeries from './assets/dataSeries';
-import Cookies from 'js-cookie';
-import { Routes, Route, Link } from "react-router-dom";
-import { useState, useEffect } from 'react';
-import axios from 'axios';
 import Movie from './components/films/movie';
+import dbMarvel from './assets/marvel';
+
+import Series from './components/series/index';
+import dbSeries from './assets/dataSeries';
 import Serie from './components/series/series'
-import Notfound from './components/Notfound';
+
+import Animes from './components/animes/index';
 
 function App() {
   const [light, setLight] = useState(true);
-  const key = "?api_key=7af841a60f3b7c5ece2380267f6f6494";
-  const lang = "?language=fr-FR";
 
   // Cookie Darkmode
 
@@ -137,6 +137,10 @@ function App() {
                 return (
                   <Route key={key} path={"/series/"+item.title.toLowerCase().normalize('NFD').replace(/([^a-zA-Z ]*)(\s*)/g, "")} element={
                   <Serie
+                    title={item.title}
+                    year={item.year}
+                    season={item.nb_of_seasons}
+                    genre="Drame"
                     dataUrl={item.data}
                     bg={item.bg}
                   />} />

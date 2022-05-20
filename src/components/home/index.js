@@ -5,7 +5,7 @@ import './home.css';
 const Home = () => {
     return (
         <section className='contentHome'>
-            
+
         </section>
     )
 }
