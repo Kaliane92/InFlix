@@ -83,6 +83,11 @@
         gap: 2px;
     }
 
+    .infos, .Titre {
+        padding: 2% 0;
+        justify-content: center;
+    }
+
     .richcard, .serie-infos, .episodes {
         width: 100%;
         height: fit-content;
@@ -95,5 +100,4 @@
         width: 100%;
         height: fit-content;
     }
-
 }
