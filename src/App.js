@@ -17,12 +17,18 @@ import dbMarvel from './assets/marvel';
 import dbSeries from './assets/dataSeries';
 import Cookies from 'js-cookie';
 import { Routes, Route, Link } from "react-router-dom";
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import axios from 'axios';
 import Movie from './components/films/movie';
 import Serie from './components/series/series'
 import Notfound from './components/Notfound';
 
 function App() {
+  const [light, setLight] = useState(true);
+  const key = "?api_key=7af841a60f3b7c5ece2380267f6f6494";
+  const lang = "?language=fr-FR";
+
+  // Cookie Darkmode
 
   function setCookie(n, v, d) {
     Cookies.set(n, v, { expires: d });
@@ -37,7 +43,6 @@ function App() {
     Cookies.remove(n);
     setLight(!light);
   }
-  const [light, setLight] = useState(true);
 
   return (
 
@@ -128,9 +133,11 @@ function App() {
               })}
           <Route path="/series" element={<Series />} />
               {
-              dbSeries.map((item, key) => {
+                dbSeries.map((item, key) => {
                 return (
-                  <Route key={key} path={"/series/"+item.title.toLowerCase().normalize('NFD').replace(/([^a-zA-Z ]*)(\s*)/g, "")} element={<Serie
+                  <Route key={key} path={"/series/"+item.title.toLowerCase().normalize('NFD').replace(/([^a-zA-Z ]*)(\s*)/g, "")} element={
+                  <Serie
+                    dataUrl={item.data}
                     bg={item.bg}
                   />} />
                 )

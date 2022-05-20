@@ -1,4 +1,4 @@
-const tolkien = [
+const wizarding = [
   {
     "_id": "62856944b73f4126000003e4",
     "title": "Les Animaux fantastiques : Les crimes de Grindelwald",
@@ -182,4 +182,4 @@ const tolkien = [
   }
 ]
 
-export default tolkien;
+export default wizarding;

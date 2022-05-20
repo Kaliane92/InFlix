@@ -3,6 +3,7 @@
 const dataSeries = [
   {
       "_id": "6283f9e0a8cb377c00121222",
+      "data" : "https://imdb-api.com/en/API/SeasonEpisodes/k_42gtd6lw/tt11126994/1",
       "title": "Arcane",
       "cover": [
         "https://res.cloudinary.com/kaliane/image/upload/v1652881975/InFlix/Series/thumb/thumb-arcane_kdpj9y.png"
@@ -21,6 +22,7 @@ const dataSeries = [
     },
     {
       "_id": "6283fc2ba8cb377c00121278",
+      "data": "https://imdb-api.com/en/API/SeasonEpisodes/k_42gtd6lw/tt9140560/1",
       "title": "WandaVision",
       "cover": [
         "https://res.cloudinary.com/kaliane/image/upload/v1652881977/InFlix/Series/thumb/thumb-wandavision_p9asox.png"
@@ -39,6 +41,7 @@ const dataSeries = [
     },
     {
       "_id": "6283faffa8cb377c00121239",
+      "data" : "https://imdb-api.com/en/API/SeasonEpisodes/k_42gtd6lw/tt9140554/1",
       "title": "Loki",
       "cover": [
         "https://res.cloudinary.com/kaliane/image/upload/v1652881975/InFlix/Series/thumb/thumb-loki_jqu0j0.png"
@@ -57,6 +60,7 @@ const dataSeries = [
     },
     {
       "_id": "6283fbb2a8cb377c00121259",
+      "data" : "https://imdb-api.com/en/API/SeasonEpisodes/k_42gtd6lw/tt10919420/1",
       "title": "Squid Game",
       "cover": [
         "https://res.cloudinary.com/kaliane/image/upload/v1652881976/InFlix/Series/thumb/thumb-squid_eqolpo.png"
@@ -75,6 +79,7 @@ const dataSeries = [
     },
     {
       "_id": "6283fb2aa8cb377c0012123d",
+      "data" : "https://imdb-api.com/en/API/SeasonEpisodes/k_42gtd6lw/tt2531336/1",
       "title": "Lupin",
       "cover": [
         "https://res.cloudinary.com/kaliane/image/upload/v1652881976/InFlix/Series/thumb/thumb-lupin_yjaswj.png"
@@ -93,6 +98,7 @@ const dataSeries = [
     },
     {
       "_id": "6283fcb1a8cb377c0012127e",
+      "data" : "https://imdb-api.com/en/API/SeasonEpisodes/k_42gtd6lw/tt7049682/1",
       "title": "Watchmen",
       "cover": [
         "https://res.cloudinary.com/kaliane/image/upload/v1652881977/InFlix/Series/thumb/thumb-watchmen_ycqti7.png"
@@ -111,6 +117,7 @@ const dataSeries = [
     },
     {
       "_id": "6283fb52a8cb377c00121241",
+      "data" : "https://imdb-api.com/en/API/SeasonEpisodes/k_42gtd6lw/tt8111088/1",
       "title": "The Mandalorian",
       "cover": [
         "https://res.cloudinary.com/kaliane/image/upload/v1652881976/InFlix/Series/thumb/thumb-mandalorian_sepqlp.png"
@@ -129,6 +136,7 @@ const dataSeries = [
     },
     {
       "_id": "6283fd7aa8cb377c0012128a",
+      "data" : "https://imdb-api.com/en/API/SeasonEpisodes/k_42gtd6lw/tt5180504/1",
       "title": "The Witcher",
       "cover": [
         "https://res.cloudinary.com/kaliane/image/upload/v1652881977/InFlix/Series/thumb/thumb-witcher_ojtqkc.png"
@@ -148,6 +156,7 @@ const dataSeries = [
     },
     {
       "_id": "6283fa30a8cb377c0012122b",
+      "data" : "https://imdb-api.com/en/API/SeasonEpisodes/k_42gtd6lw/tt1190634/1",
       "title": "The Boys",
       "cover": [
         "https://res.cloudinary.com/kaliane/image/upload/v1652881975/InFlix/Series/thumb/thumb-boys_oounpi.png"
@@ -166,6 +175,7 @@ const dataSeries = [
     },
     {
       "_id": "6283fbfea8cb377c00121271",
+      "data" : "https://imdb-api.com/en/API/SeasonEpisodes/k_42gtd6lw/tt1043813/1",
       "title": "Titans",
       "cover": [
         "https://res.cloudinary.com/kaliane/image/upload/v1652881976/InFlix/Series/thumb/thumb-titans_l8gl3b.png"
@@ -184,6 +194,7 @@ const dataSeries = [
     },
     {
       "_id": "6283fa77a8cb377c0012122f",
+      "data" : "https://imdb-api.com/en/API/SeasonEpisodes/k_42gtd6lw/tt5834204/1",
       "title": "The Handmaid's Tale",
       "cover": [
         "https://res.cloudinary.com/kaliane/image/upload/v1652881975/InFlix/Series/thumb/thumb-handmaid_stotpz.png"
@@ -202,6 +213,7 @@ const dataSeries = [
     },
     {
       "_id": "6283fb85a8cb377c0012124b",
+      "data" : "https://imdb-api.com/en/API/SeasonEpisodes/k_42gtd6lw/tt4158110/1",
       "title": "Mr. Robot",
       "cover": [
         "https://res.cloudinary.com/kaliane/image/upload/v1652881976/InFlix/Series/thumb/thumb-mrrobot_r38bka.png"
@@ -220,6 +232,7 @@ const dataSeries = [
     },
     {
       "_id": "6283fabaa8cb377c00121233",
+      "data" : "https://imdb-api.com/en/API/SeasonEpisodes/k_42gtd6lw/tt1740299/1",
       "title": "The Man in the High Castle",
       "cover": [
         "https://res.cloudinary.com/kaliane/image/upload/v1652881975/InFlix/Series/thumb/thumb-highcastle_z3dfuf.png"
@@ -238,6 +251,7 @@ const dataSeries = [
     },
     {
       "_id": "6283c982a8cb377c0012074c",
+      "data" : "https://imdb-api.com/fr/API/SeasonEpisodes/k_42gtd6lw/tt0944947/8",
       "title": "Game of Thrones",
       "cover": [
         "https://res.cloudinary.com/kaliane/image/upload/v1652881975/InFlix/Series/thumb/thumb-got_g3vdto.png"
@@ -256,6 +270,7 @@ const dataSeries = [
     },
     {
       "_id": "6283fd10a8cb377c00121284",
+      "data" : "https://imdb-api.com/en/API/SeasonEpisodes/k_42gtd6lw/tt0306414/1",
       "title": "The Wire",
       "cover": [
         "https://res.cloudinary.com/kaliane/image/upload/v1652881977/InFlix/Series/thumb/thumb-wire_ztfykt.png"

@@ -1,0 +1,74 @@
+@import url(../../colors.css);
+
+.richcard {
+    width: 848px;
+    height: fit-content;
+    min-height: 162px;
+    display: flex;
+    border-radius: 12px;
+    background: #44444450;
+    backdrop-filter: blur(12px);
+    font-size: 1.6rem;
+    overflow: hidden;
+    color: var(--color);
+    transition: 0.14s ease-in-out;
+    cursor: pointer;
+}
+
+.cardLeft {
+    flex-grow: 1;
+    display: flex;
+    object-fit: cover;
+    max-width: 33%;
+}
+
+.cardRight {
+    padding: 10px 20px;
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardTitle {
+    display: flex;
+    justify-content: space-between;
+    padding: 26px 0;
+}
+
+.richcard:hover {
+    transform: scale(1.1);
+    background: #F6F6F6;
+    color: black;
+}
+
+.richcard:hover > .cardTitle > h4 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.progressBarContainer {
+    display: flex;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+
+.progressBar {
+    height: 4px;
+    width: 100%;
+    border-radius: 2px;
+    background: #D1D1D1;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    width: 1%;
+    background: var(--dégradé);
+}
+
+.miscInfos {
+    display: flex;
+    justify-content: space-between;
+    padding: 26px 0;
+}
