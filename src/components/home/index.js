@@ -4,9 +4,6 @@ import Slider from '../slider/index'
 const Home = () => {
     return (
         <section className='content'>
-            <Slider
-                publisher={'Marvel'}
-            />
         </section>
     )
 }
