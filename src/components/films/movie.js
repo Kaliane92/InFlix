@@ -27,7 +27,7 @@ const Movie = (props) => {
                         <p>{props.genre}</p>
                     </div>
                 </div>
-                <div className="btn-movie">
+                <div className="btn-movie" style={{display: "none"}}>
                     <button className="btn-play">Regarder</button>
                     <button className="btn-watchlist">Watchlist</button>
                 </div>

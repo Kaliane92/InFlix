@@ -11,35 +11,34 @@
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
 }
-@media (orientation: landscape) {
   /* ------------------------------------------- */
 
-  html {
+html {
     /* 62.5% of 16px base font size is 10px */
     font-size: 62.5%;
     font-size: 10px;
-  }
+}
   
-  html::-webkit-scrollbar {
+html::-webkit-scrollbar {
+  display: none;
+  scroll-behavior: smooth;
+}
+
+.App {
+  text-align: center;
+}
+
+#root {
+  font-size: 1.6rem; /* 16px */
+  /* width: 100vw;
+  height: 100vh; */
+  background: var(--bg);
+}
+
+#root::-webkit-scrollbar {
     display: none;
     scroll-behavior: smooth;
-  }
-
-  .App {
-    text-align: center;
-  }
-
-  #root {
-    font-size: 1.6rem; /* 16px */
-    /* width: 100vw;
-    height: 100vh; */
-    background: var(--bg);
-  }
-
-  #root::-webkit-scrollbar {
-    display: none;
-    scroll-behavior: smooth;
-  }
+}
 
   .light,
   .dark {
@@ -126,7 +125,6 @@
     padding-left: 6.5%;
     overflow: hidden;
   }
-}
 
 @media (orientation: portrait) {
 
@@ -141,13 +139,6 @@
     scroll-behavior: smooth;
   }
 
-  .menu {
-    display: none;
-    opacity: 0;
-    width: 0;
-    height: 0;
-  }
-  
   .light,
   .dark {
     width: 100vw;

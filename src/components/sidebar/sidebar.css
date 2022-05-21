@@ -94,7 +94,7 @@
     fill: var(--colormenuhover);
 }
 
-.item-menu:focus-visible > .menu {
+.item-menu:focus-visible>.menu {
     width: 13%;
     transition: 0.15s ease-out;
 }
@@ -229,12 +229,90 @@ input:checked+.slider:before {
     .logo {
         padding: 0 16%;
     }
+
     .logoicon {
         width: 54px;
     }
+
     .scroll-serie {
         gap: 20px;
     }
+}
+
+@media (orientation: portrait) {
+
+    .menu {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        max-height: unset;
+        max-width: unset;
+        min-width: unset;
+        flex-direction: row;
+        width: 100%;
+        height: 6.5%;
+        min-height: 64px;
+    }
+
+    .menu:hover {
+        width: inherit;
+        min-width: unset;
+        transition: 0.15s ease-out;
+    }
+
+    .settings > .item-menu {
+        gap: 0;
+        justify-content: space-evenly;
+    }
+
+    .menu:hover p {
+        display: none;
+    }
+
+    .menu:hover a {
+        width: fit-content;
+        min-width: unset;
+    }
+
+    .switch {
+        display: block;
+    }
+
+    .colormode {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .colormode svg {
+        display: none !important;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .favs,
+    .settings {
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 50%;
+        padding: 0;
+        gap: 0;
+    }
+
+    .item-menu {
+        padding: 0 15%;
+    }
+
+    .item-menu:hover {
+        background: transparent;
+    }
+
+    .settings > .item-menu:hover {
+        width: initial;
+    }
+
 }
 
 /* ---------- Gestion Tablette ---------- */

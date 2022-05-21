@@ -1,9 +1,11 @@
 import React from "react";
-import Slider from '../slider/index'
+import './home.css';
+
 
 const Home = () => {
     return (
-        <section className='content'>
+        <section className='contentHome'>
+
         </section>
     )
 }

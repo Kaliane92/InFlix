@@ -3,6 +3,7 @@
 const dataSeries = [
   {
       "_id": "6283f9e0a8cb377c00121222",
+      "data" : "https://imdb-api.com/en/API/SeasonEpisodes/k_42gtd6lw/tt11126994/1",
       "title": "Arcane",
       "cover": [
         "https://res.cloudinary.com/kaliane/image/upload/v1652881975/InFlix/Series/thumb/thumb-arcane_kdpj9y.png"
@@ -11,7 +12,7 @@ const dataSeries = [
       "year": "2022",
       "synopsis": "Au milieu du conflit entre les villes jumelles de Piltover et Zaun, deux soeurs se battent dans les camps opposés d'une guerre entre technologies magiques et convictions incompatibles.",
       "bg": [
-        "6283c977a8cb377c00120749"
+        "https://res.cloudinary.com/kaliane/image/upload/v1653050598/InFlix/Series/bgimg/bgimg-arcane_j7jgzx.png"
       ],
       "_created": "2022-05-17T19:39:12.822Z",
       "_changed": "2022-05-17T19:39:12.822Z",
@@ -21,6 +22,7 @@ const dataSeries = [
     },
     {
       "_id": "6283fc2ba8cb377c00121278",
+      "data": "https://imdb-api.com/en/API/SeasonEpisodes/k_42gtd6lw/tt9140560/1",
       "title": "WandaVision",
       "cover": [
         "https://res.cloudinary.com/kaliane/image/upload/v1652881977/InFlix/Series/thumb/thumb-wandavision_p9asox.png"
@@ -29,7 +31,7 @@ const dataSeries = [
       "year": "2021",
       "synopsis": "Wanda Maximoff, alias la Sorcière Rouge, et Vision sont des super-héros, qui coulent des jours paisibles dans une banlieue parfaite, jusqu'au jour où Vision commence à soupçonner que tout n'est peut-être pas ce qu'il y paraît.",
       "bg": [
-        "6283c977a8cb377c00120749"
+        "https://res.cloudinary.com/kaliane/image/upload/v1653050605/InFlix/Series/bgimg/bgimg-wanda_bajhcv.png"
       ],
       "_created": "2022-05-17T19:48:59.023Z",
       "_changed": "2022-05-17T19:48:59.023Z",
@@ -39,6 +41,7 @@ const dataSeries = [
     },
     {
       "_id": "6283faffa8cb377c00121239",
+      "data" : "https://imdb-api.com/en/API/SeasonEpisodes/k_42gtd6lw/tt9140554/1",
       "title": "Loki",
       "cover": [
         "https://res.cloudinary.com/kaliane/image/upload/v1652881975/InFlix/Series/thumb/thumb-loki_jqu0j0.png"
@@ -47,7 +50,7 @@ const dataSeries = [
       "year": "2021",
       "synopsis": "Dans une réalité alternative, Loki s'est échappé avec le Tesseract. Après son évasion, il est emmené auprès du Tribunal des Variations Anachroniques, un organisme qui agit pour arrêter toute personne qui tenterait d'altérer l'éternel flux temporel.",
       "bg": [
-        "6283c977a8cb377c00120749"
+        "https://res.cloudinary.com/kaliane/image/upload/v1653050604/InFlix/Series/bgimg/bgimg-loki_wie1bj.png"
       ],
       "_created": "2022-05-17T19:43:59.746Z",
       "_changed": "2022-05-17T19:43:59.746Z",
@@ -57,6 +60,7 @@ const dataSeries = [
     },
     {
       "_id": "6283fbb2a8cb377c00121259",
+      "data" : "https://imdb-api.com/en/API/SeasonEpisodes/k_42gtd6lw/tt10919420/1",
       "title": "Squid Game",
       "cover": [
         "https://res.cloudinary.com/kaliane/image/upload/v1652881976/InFlix/Series/thumb/thumb-squid_eqolpo.png"
@@ -65,7 +69,7 @@ const dataSeries = [
       "year": "2021",
       "synopsis": "Des personnes en difficultés financières sont invitées à une mystérieuse compétition de survie. Participant à une série de jeux traditionnels pour enfants, mais avec des rebondissements mortels, elles risquent leur vie pour une grosse somme d'argent.",
       "bg": [
-        "6283c977a8cb377c00120749"
+        "https://res.cloudinary.com/kaliane/image/upload/v1653050598/InFlix/Series/bgimg/bgimg-squid_zunqxf.png"
       ],
       "_created": "2022-05-17T19:46:58.443Z",
       "_changed": "2022-05-17T19:46:58.443Z",
@@ -75,6 +79,7 @@ const dataSeries = [
     },
     {
       "_id": "6283fb2aa8cb377c0012123d",
+      "data" : "https://imdb-api.com/en/API/SeasonEpisodes/k_42gtd6lw/tt2531336/1",
       "title": "Lupin",
       "cover": [
         "https://res.cloudinary.com/kaliane/image/upload/v1652881976/InFlix/Series/thumb/thumb-lupin_yjaswj.png"
@@ -83,7 +88,7 @@ const dataSeries = [
       "year": "2021",
       "synopsis": "Il y a 25 ans, la vie du jeune Assane Diop est bouleversée lorsque son père meurt après avoir été accusé d'un crime qu'il n'a pas commis. Aujourd'hui, Assane va s'inspirer de son héros, Arsène Lupin, pour le venger.",
       "bg": [
-        "6283c977a8cb377c00120749"
+        "https://res.cloudinary.com/kaliane/image/upload/v1653050599/InFlix/Series/bgimg/bgimg-lupin_uld1dh.png"
       ],
       "_created": "2022-05-17T19:44:42.979Z",
       "_changed": "2022-05-17T19:44:42.979Z",
@@ -93,6 +98,7 @@ const dataSeries = [
     },
     {
       "_id": "6283fcb1a8cb377c0012127e",
+      "data" : "https://imdb-api.com/en/API/SeasonEpisodes/k_42gtd6lw/tt7049682/1",
       "title": "Watchmen",
       "cover": [
         "https://res.cloudinary.com/kaliane/image/upload/v1652881977/InFlix/Series/thumb/thumb-watchmen_ycqti7.png"
@@ -101,7 +107,7 @@ const dataSeries = [
       "year": "2019",
       "synopsis": "Les super-héros font partie du quotidien et où l'Horloge de l'Apocalypse -symbole de la tension entre les USA et URSS - indique en permanence 23:55. Suite à l'assassinat d'un de ses collègues Rorschach, un justicier masqué va découvrir un complot.",
       "bg": [
-        "6283c977a8cb377c00120749"
+        "https://res.cloudinary.com/kaliane/image/upload/v1653050605/InFlix/Series/bgimg/bgimg-watchmen_rad8vm.png"
       ],
       "_created": "2022-05-17T19:51:13.645Z",
       "_changed": "2022-05-17T19:51:13.645Z",
@@ -111,6 +117,7 @@ const dataSeries = [
     },
     {
       "_id": "6283fb52a8cb377c00121241",
+      "data" : "https://imdb-api.com/en/API/SeasonEpisodes/k_42gtd6lw/tt8111088/1",
       "title": "The Mandalorian",
       "cover": [
         "https://res.cloudinary.com/kaliane/image/upload/v1652881976/InFlix/Series/thumb/thumb-mandalorian_sepqlp.png"
@@ -119,7 +126,7 @@ const dataSeries = [
       "year": "2019",
       "synopsis": "Un tireur solitaire voyage dans les contrées les plus reculées de la galaxie, loin du joug de la Nouvelle République.",
       "bg": [
-        "6283c977a8cb377c00120749"
+        "https://res.cloudinary.com/kaliane/image/upload/v1653050604/InFlix/Series/bgimg/bgimg-mandalorian_ccijlt.png"
       ],
       "_created": "2022-05-17T19:45:22.299Z",
       "_changed": "2022-05-17T19:45:22.299Z",
@@ -129,6 +136,7 @@ const dataSeries = [
     },
     {
       "_id": "6283fd7aa8cb377c0012128a",
+      "data" : "https://imdb-api.com/en/API/SeasonEpisodes/k_42gtd6lw/tt5180504/1",
       "title": "The Witcher",
       "cover": [
         "https://res.cloudinary.com/kaliane/image/upload/v1652881977/InFlix/Series/thumb/thumb-witcher_ojtqkc.png"
@@ -137,7 +145,7 @@ const dataSeries = [
       "year": "2019",
       "synopsis": "Hexer Geralt reprend la mission inachevée d'un autre sorceleur dans un royaume traqué par une bête féroce. Yennefer se forge un avenir magique au prix d'un terrible sacrifice.",
       "bg": [
-        "6283c977a8cb377c00120749"
+        "https://res.cloudinary.com/kaliane/image/upload/v1653050601/InFlix/Series/bgimg/bgimg-witcher_mejru3.png"
       ],
       "_created": "2022-05-17T19:54:34.968Z",
       "_changed": "2022-05-17T19:54:34.968Z",
@@ -148,6 +156,7 @@ const dataSeries = [
     },
     {
       "_id": "6283fa30a8cb377c0012122b",
+      "data" : "https://imdb-api.com/en/API/SeasonEpisodes/k_42gtd6lw/tt1190634/1",
       "title": "The Boys",
       "cover": [
         "https://res.cloudinary.com/kaliane/image/upload/v1652881975/InFlix/Series/thumb/thumb-boys_oounpi.png"
@@ -156,7 +165,7 @@ const dataSeries = [
       "year": "2019",
       "synopsis": "Lorsque les super-héros abusent de leurs super-pouvoirs au lieu de les utiliser pour faire le bien, les Boys se lancent dans une quête héroïque pour révéler la vérité sur The Seven et Vought, le conglomérat qui couvre leurs sales secrets.",
       "bg": [
-        "6283c977a8cb377c00120749"
+        "https://res.cloudinary.com/kaliane/image/upload/v1653050603/InFlix/Series/bgimg/bgimg-boys_bi3vzi.png"
       ],
       "_created": "2022-05-17T19:40:32.740Z",
       "_changed": "2022-05-17T19:40:32.740Z",
@@ -166,6 +175,7 @@ const dataSeries = [
     },
     {
       "_id": "6283fbfea8cb377c00121271",
+      "data" : "https://imdb-api.com/en/API/SeasonEpisodes/k_42gtd6lw/tt1043813/1",
       "title": "Titans",
       "cover": [
         "https://res.cloudinary.com/kaliane/image/upload/v1652881976/InFlix/Series/thumb/thumb-titans_l8gl3b.png"
@@ -174,7 +184,7 @@ const dataSeries = [
       "year": "2018",
       "synopsis": "Dick Grayson et Rachel Roth se retrouvent impliqués dans une conspiration qui menace la Terre, et s'associent à d'autres jeunes héros pour former une famille de substitution et une équipe de lutte contre le crime.",
       "bg": [
-        "6283c977a8cb377c00120749"
+        "https://res.cloudinary.com/kaliane/image/upload/v1653050599/InFlix/Series/bgimg/bgimg-titans_znhjqp.png"
       ],
       "_created": "2022-05-17T19:48:14.579Z",
       "_changed": "2022-05-17T19:48:14.579Z",
@@ -184,6 +194,7 @@ const dataSeries = [
     },
     {
       "_id": "6283fa77a8cb377c0012122f",
+      "data" : "https://imdb-api.com/en/API/SeasonEpisodes/k_42gtd6lw/tt5834204/1",
       "title": "The Handmaid's Tale",
       "cover": [
         "https://res.cloudinary.com/kaliane/image/upload/v1652881975/InFlix/Series/thumb/thumb-handmaid_stotpz.png"
@@ -192,7 +203,7 @@ const dataSeries = [
       "year": "2017",
       "synopsis": "Dans une dictature où la stérilité a frappé les femmes, ces dernières sont divisées en trois catégories : les Epouses, qui dominent la maison, les Marthas, qui l'entretiennent, et les Servantes, dont le rôle est la reproduction.",
       "bg": [
-        "6283c977a8cb377c00120749"
+        "https://res.cloudinary.com/kaliane/image/upload/v1653050598/InFlix/Series/bgimg/bgimg-handmaid_bcdebp.png"
       ],
       "_created": "2022-05-17T19:41:43.688Z",
       "_changed": "2022-05-17T19:41:43.688Z",
@@ -202,6 +213,7 @@ const dataSeries = [
     },
     {
       "_id": "6283fb85a8cb377c0012124b",
+      "data" : "https://imdb-api.com/en/API/SeasonEpisodes/k_42gtd6lw/tt4158110/1",
       "title": "Mr. Robot",
       "cover": [
         "https://res.cloudinary.com/kaliane/image/upload/v1652881976/InFlix/Series/thumb/thumb-mrrobot_r38bka.png"
@@ -210,7 +222,7 @@ const dataSeries = [
       "year": "2015",
       "synopsis": "Elliot Alderson est un jeune informaticien vivant à New York, qui travaille en tant qu'ingénieur en sécurité informatique pour Allsafe Security. Celui-ci luttant constamment contre un trouble d'anxiété sociale et de dépression.",
       "bg": [
-        "6283c977a8cb377c00120749"
+        "https://res.cloudinary.com/kaliane/image/upload/v1653050603/InFlix/Series/bgimg/bgimg-mrrobot_euc5tb.png"
       ],
       "_created": "2022-05-17T19:46:13.428Z",
       "_changed": "2022-05-17T19:46:13.428Z",
@@ -220,6 +232,7 @@ const dataSeries = [
     },
     {
       "_id": "6283fabaa8cb377c00121233",
+      "data" : "https://imdb-api.com/en/API/SeasonEpisodes/k_42gtd6lw/tt1740299/1",
       "title": "The Man in the High Castle",
       "cover": [
         "https://res.cloudinary.com/kaliane/image/upload/v1652881975/InFlix/Series/thumb/thumb-highcastle_z3dfuf.png"
@@ -228,7 +241,7 @@ const dataSeries = [
       "year": "2015",
       "synopsis": "Et si, après avoir perdu la Seconde Guerre Mondiale, le territoire des Etats-Unis avait été partagé entre l'Empire du Japon et le Reich Nazi ? Voici comment se seraient déroulés les événements.",
       "bg": [
-        "6283c977a8cb377c00120749"
+        "https://res.cloudinary.com/kaliane/image/upload/v1653050604/InFlix/Series/bgimg/bgimg-highcastle_swqylt.png"
       ],
       "_created": "2022-05-17T19:42:50.446Z",
       "_changed": "2022-05-17T19:42:50.446Z",
@@ -238,6 +251,7 @@ const dataSeries = [
     },
     {
       "_id": "6283c982a8cb377c0012074c",
+      "data" : "https://imdb-api.com/fr/API/SeasonEpisodes/k_42gtd6lw/tt0944947/8",
       "title": "Game of Thrones",
       "cover": [
         "https://res.cloudinary.com/kaliane/image/upload/v1652881975/InFlix/Series/thumb/thumb-got_g3vdto.png"
@@ -256,6 +270,7 @@ const dataSeries = [
     },
     {
       "_id": "6283fd10a8cb377c00121284",
+      "data" : "https://imdb-api.com/en/API/SeasonEpisodes/k_42gtd6lw/tt0306414/1",
       "title": "The Wire",
       "cover": [
         "https://res.cloudinary.com/kaliane/image/upload/v1652881977/InFlix/Series/thumb/thumb-wire_ztfykt.png"
@@ -264,7 +279,7 @@ const dataSeries = [
       "year": "2002",
       "synopsis": "Un agent aux homicides et un détective aux narcotiques collaborent afin de démanteler une opération. La criminalité dans la ville de Baltimore, à travers la vision de ceux qui la vivent au quotidien.",
       "bg": [
-        "6283c977a8cb377c00120749"
+        "https://res.cloudinary.com/kaliane/image/upload/v1653050598/InFlix/Series/bgimg/bgimg-wire_xhnp9p.png"
       ],
       "_created": "2022-05-17T19:52:48.495Z",
       "_changed": "2022-05-17T19:52:48.495Z",

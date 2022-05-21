@@ -39,4 +39,10 @@
   }
   
   /* ---------- */
+
+  @media (orientation: portrait) {
+    .categories {
+      padding-left: 0;
+    }
+  }
   

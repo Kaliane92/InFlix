@@ -53,6 +53,11 @@
 }
 
 @media (orientation: portrait) {
+
+    .content {
+        padding: 28% 0 16% 0;
+    }
+
     .ligne {
         display: flex;
         flex-direction: column;
@@ -64,25 +69,39 @@
     .thumbnails {
         display: flex;
         position: relative;
-        padding-left: 10px;
-        /* overflow-x: scroll;
-        -ms-overflow-style: none;
-        scrollbar-width: none;  */
+        padding: 4% 0;
+        background-color: var(--menubg);
     }
 
     .slides {
         display: flex;
-        gap: 20px;
+        gap: 16px;
         transition: 0.25s ease-in-out;
         overflow-x: scroll;
     }
 
-    .slides a img {
-        width: 240px;
+    .cardImg {
+        width: 120px;
         height: auto;
     }
 
     .btn-slide {
         display: none;
     }   
+
+
+    .slides a {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .slides a:hover {
+        transform: none;
+    }
+
+    .slides a h4 {
+        font-size: 2rem;
+    }
 }
