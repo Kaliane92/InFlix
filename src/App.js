@@ -118,7 +118,7 @@ function App() {
               {
               dbMarvel.map((item, key) => {
                 return (
-                  <Route key={key} path={"/films/"+item.title.toLowerCase().normalize('NFD').replace(/([^a-zA-Z ]*)(\s*)/g, "")} element={<Movie
+                  <Route key={key} path={"/films/"+item.title.toLowerCase().normalize('NFD').replace(/([^a-zA-Z0-9 ]*)(\s*)/g, "")} element={<Movie
                     logo={item.logo}
                     bg={item.background}
                     title={item.title}

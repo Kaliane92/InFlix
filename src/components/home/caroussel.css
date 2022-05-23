@@ -1,0 +1,113 @@
+.carrousel {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 18%;
+    position: relative;
+    padding: 20px;
+    width: 93.5vw;
+    height: auto;
+    background-size: cover;
+    background-position-y: 8%;
+    font-family: 'Inter', sans-serif;
+}
+
+.carrousel h3 {
+    position: absolute;
+    top: 8%;
+    color: var(--color);
+    font-weight: 600;
+    font-size: 3.2rem;
+    padding: 1%;
+    font-family: 'Inter', sans-serif;
+}
+
+.carrousel p {
+    color: var(--color);
+    justify-self: center;
+    width: 30%;
+    position: absolute;
+    top: calc( 50% - ( 80px / 2 ) );
+    font-weight: 300;
+    font-size: 1.8rem;
+    padding: 1%;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.cta-home {
+    position: absolute;
+    bottom: 20px;
+    left: calc( 50% - ( 240px / 2 ) );
+    border: none;
+    height: 64px;
+    width: 240px;
+    padding: 15px 40px;
+    border-radius: 8px;
+    font-size: 1.8rem;
+    color: var(--color);
+    cursor: pointer;
+    transition: 0.2s ease;
+    background: var(--dégradé);
+    text-decoration: none;
+}
+
+.dots {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    display: flex;
+    gap: 4px;
+}
+
+.dots div {
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    background: rgba(255, 255, 255, 0.333);
+}
+
+.selectedDot {
+    background: var(--dégradé) !important;
+}
+
+.display {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    padding: 26px;
+    gap: 15px;
+    background: var(--bg);
+    -webkit-box-shadow: 0px 0px 12px 5px rgba(0,0,0,0.33); 
+    box-shadow: 0px 0px 12px 5px rgba(0,0,0,0.33);
+}
+
+.display h5 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: var(--thumb);
+}
+
+.displayImg {
+    display: flex;
+    gap: 26px;
+}
+
+.displayImg img {
+    border-radius: 12px;
+    border: solid 4px transparent;
+    background: var(--transparent);
+    -webkit-box-shadow: 0px 0px 12px 5px rgba(0,0,0,0.15); 
+    box-shadow: 0px 0px 12px 5px rgba(0,0,0,0.15);
+}
+
+.thumbNew {
+    width: 328px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.selectedNew {
+    border: solid 4px transparent;
+    background: var(--dégradé) !important;
+}

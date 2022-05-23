@@ -1,7 +1,7 @@
 const tolkien = [
   {
     "_id": "628563f5b73f4126000003ca",
-    "title": "Le seigneur des anneaux - la communauté de l'anneau",
+    "title": "Le Seigneur des Anneaux: La communauté de l'Anneau",
     "thumb": "https://res.cloudinary.com/kaliane/image/upload/v1652908727/InFlix/Tolkien/thumb/thumb-lotr_pok6gh.png",
     "release-year": "2001-01-01T00:00:00.000Z",
     "duration": "1970-01-01T02:58:00.000Z",
@@ -19,7 +19,7 @@ const tolkien = [
   },
   {
     "_id": "62856462b73f4126000003ce",
-    "title": "Le Seigneur des Anneaux - les deux tours",
+    "title": "Le Seigneur des Anneaux: Les deux Tours",
     "thumb": "https://res.cloudinary.com/kaliane/image/upload/v1652908727/InFlix/Tolkien/thumb/thumb-tours_lkjphq.png",
     "release-year": "2002-01-01T00:00:00.000Z",
     "duration": "1970-01-01T03:01:00.000Z",
@@ -37,7 +37,7 @@ const tolkien = [
   },
   {
     "_id": "628564d8b73f4126000003d0",
-    "title": "Le Seigneur des Anneaux - le retour du Roi",
+    "title": "Le Seigneur des Anneaux: Le retour du Roi",
     "thumb": "https://res.cloudinary.com/kaliane/image/upload/v1652908727/InFlix/Tolkien/thumb/thumb-roi_bejtrg.png",
     "release-year": "2003-01-01T00:00:00.000Z",
     "duration": "1970-01-01T03:21:00.000Z",
@@ -55,7 +55,7 @@ const tolkien = [
   },
   {
     "_id": "62856538b73f4126000003d2",
-    "title": "Le Hobbit : un voyage inattendu",
+    "title": "Le Hobbit: Un voyage inattendu",
     "thumb": "https://res.cloudinary.com/kaliane/image/upload/v1652908727/InFlix/Tolkien/thumb/thumb-hobbit_rwjs6f.png",
     "release-year": "2012-01-01T00:00:00.000Z",
     "duration": "1970-01-01T02:49:00.000Z",
@@ -73,7 +73,7 @@ const tolkien = [
   },
   {
     "_id": "62856575b73f4126000003d5",
-    "title": "Le Hobbit : la Désolation de Smaug",
+    "title": "Le Hobbit: La désolation de Smaug",
     "thumb": "https://res.cloudinary.com/kaliane/image/upload/v1652908727/InFlix/Tolkien/thumb/thumb-smaug_ueyzri.png",
     "release-year": "2013-01-01T00:00:00.000Z",
     "duration": "1970-01-01T03:06:00.000Z",
@@ -91,7 +91,7 @@ const tolkien = [
   },
   {
     "_id": "628565deb73f4126000003d9",
-    "title": "Le Hobbit : la Bataille des Cinq Armées",
+    "title": "Le Hobbit: La Bataille des Cinq Armées",
     "thumb": "https://res.cloudinary.com/kaliane/image/upload/v1652908727/InFlix/Tolkien/thumb/thumb-arm%C3%A9es_cd5pqc.png",
     "release-year": "2014-01-01T00:00:00.000Z",
     "duration": "1970-01-01T02:21:00.000Z",

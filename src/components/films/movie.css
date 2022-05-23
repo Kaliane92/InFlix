@@ -87,3 +87,40 @@
 .btn-watchlist:hover {
     transform: scale(1.05);
 }
+
+@media (orientation: portrait) and (max-width: 1024px) {
+    #sideM {
+        height: 100%;
+        width: 100%;
+        padding: 10%;
+        background-color: rgba(0, 0, 0, 0.66);
+        justify-content: flex-start;
+        overflow-y: scroll;
+    }
+    .movie {
+        padding-top: 10%;
+        padding-bottom: 0;
+        height: 100%;
+    }
+    .btn-movie {
+        flex-wrap: wrap;
+    }
+}
+
+@media (orientation: portrait) and (max-width: 420px) {
+    #sideM {
+        height: 100%;
+        width: 100%;
+        padding: 10% 10% 0 10%;
+        background-color: rgba(0, 0, 0, 0.66);
+        justify-content: flex-start;
+        overflow-y: scroll;
+    }
+    .movie {
+        padding-top: 23%;
+        height: 100%;
+    }
+    .btn-movie {
+        flex-wrap: wrap;
+    }
+}

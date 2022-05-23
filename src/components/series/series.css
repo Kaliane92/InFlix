@@ -179,6 +179,7 @@
 @media (orientation: portrait) {
     .scroll-serie {
         justify-content: center;
+        gap: 30px;
     }
     
     .cover img,

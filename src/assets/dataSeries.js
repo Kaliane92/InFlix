@@ -14,6 +14,7 @@ const dataSeries = [
       "bg": [
         "https://res.cloudinary.com/kaliane/image/upload/v1653050598/InFlix/Series/bgimg/bgimg-arcane_j7jgzx.png"
       ],
+      "platform": "netflix",
       "_created": "2022-05-17T19:39:12.822Z",
       "_changed": "2022-05-17T19:39:12.822Z",
       "_createdby": "kevin_aliane@hotmail.fr",
@@ -33,6 +34,7 @@ const dataSeries = [
       "bg": [
         "https://res.cloudinary.com/kaliane/image/upload/v1653050605/InFlix/Series/bgimg/bgimg-wanda_bajhcv.png"
       ],
+      "platform": "disney",
       "_created": "2022-05-17T19:48:59.023Z",
       "_changed": "2022-05-17T19:48:59.023Z",
       "_createdby": "kevin_aliane@hotmail.fr",
@@ -52,6 +54,7 @@ const dataSeries = [
       "bg": [
         "https://res.cloudinary.com/kaliane/image/upload/v1653050604/InFlix/Series/bgimg/bgimg-loki_wie1bj.png"
       ],
+      "platform": "disney",
       "_created": "2022-05-17T19:43:59.746Z",
       "_changed": "2022-05-17T19:43:59.746Z",
       "_createdby": "kevin_aliane@hotmail.fr",
@@ -71,6 +74,7 @@ const dataSeries = [
       "bg": [
         "https://res.cloudinary.com/kaliane/image/upload/v1653050598/InFlix/Series/bgimg/bgimg-squid_zunqxf.png"
       ],
+      "platform": "netflix",
       "_created": "2022-05-17T19:46:58.443Z",
       "_changed": "2022-05-17T19:46:58.443Z",
       "_createdby": "kevin_aliane@hotmail.fr",
@@ -90,6 +94,7 @@ const dataSeries = [
       "bg": [
         "https://res.cloudinary.com/kaliane/image/upload/v1653050599/InFlix/Series/bgimg/bgimg-lupin_uld1dh.png"
       ],
+      "platform": "netflix",
       "_created": "2022-05-17T19:44:42.979Z",
       "_changed": "2022-05-17T19:44:42.979Z",
       "_createdby": "kevin_aliane@hotmail.fr",
@@ -109,6 +114,7 @@ const dataSeries = [
       "bg": [
         "https://res.cloudinary.com/kaliane/image/upload/v1653050605/InFlix/Series/bgimg/bgimg-watchmen_rad8vm.png"
       ],
+      "platform": "hbo",
       "_created": "2022-05-17T19:51:13.645Z",
       "_changed": "2022-05-17T19:51:13.645Z",
       "_createdby": "kevin_aliane@hotmail.fr",
@@ -128,6 +134,7 @@ const dataSeries = [
       "bg": [
         "https://res.cloudinary.com/kaliane/image/upload/v1653050604/InFlix/Series/bgimg/bgimg-mandalorian_ccijlt.png"
       ],
+      "platform": "disney",
       "_created": "2022-05-17T19:45:22.299Z",
       "_changed": "2022-05-17T19:45:22.299Z",
       "_createdby": "kevin_aliane@hotmail.fr",
@@ -147,6 +154,7 @@ const dataSeries = [
       "bg": [
         "https://res.cloudinary.com/kaliane/image/upload/v1653050601/InFlix/Series/bgimg/bgimg-witcher_mejru3.png"
       ],
+      "platform": "netflix",
       "_created": "2022-05-17T19:54:34.968Z",
       "_changed": "2022-05-17T19:54:34.968Z",
       "_createdby": "kevin_aliane@hotmail.fr",
@@ -167,6 +175,7 @@ const dataSeries = [
       "bg": [
         "https://res.cloudinary.com/kaliane/image/upload/v1653050603/InFlix/Series/bgimg/bgimg-boys_bi3vzi.png"
       ],
+      "platform": "primevideo",
       "_created": "2022-05-17T19:40:32.740Z",
       "_changed": "2022-05-17T19:40:32.740Z",
       "_createdby": "kevin_aliane@hotmail.fr",
@@ -186,6 +195,7 @@ const dataSeries = [
       "bg": [
         "https://res.cloudinary.com/kaliane/image/upload/v1653050599/InFlix/Series/bgimg/bgimg-titans_znhjqp.png"
       ],
+      "platform": "netflix",
       "_created": "2022-05-17T19:48:14.579Z",
       "_changed": "2022-05-17T19:48:14.579Z",
       "_createdby": "kevin_aliane@hotmail.fr",
@@ -205,6 +215,7 @@ const dataSeries = [
       "bg": [
         "https://res.cloudinary.com/kaliane/image/upload/v1653050598/InFlix/Series/bgimg/bgimg-handmaid_bcdebp.png"
       ],
+      "platform": "hbo",
       "_created": "2022-05-17T19:41:43.688Z",
       "_changed": "2022-05-17T19:41:43.688Z",
       "_createdby": "kevin_aliane@hotmail.fr",
@@ -224,6 +235,7 @@ const dataSeries = [
       "bg": [
         "https://res.cloudinary.com/kaliane/image/upload/v1653050603/InFlix/Series/bgimg/bgimg-mrrobot_euc5tb.png"
       ],
+      "platform": "hbo",
       "_created": "2022-05-17T19:46:13.428Z",
       "_changed": "2022-05-17T19:46:13.428Z",
       "_createdby": "kevin_aliane@hotmail.fr",
@@ -243,6 +255,7 @@ const dataSeries = [
       "bg": [
         "https://res.cloudinary.com/kaliane/image/upload/v1653050604/InFlix/Series/bgimg/bgimg-highcastle_swqylt.png"
       ],
+      "platform": "primevideo",
       "_created": "2022-05-17T19:42:50.446Z",
       "_changed": "2022-05-17T19:42:50.446Z",
       "_createdby": "kevin_aliane@hotmail.fr",
@@ -262,6 +275,8 @@ const dataSeries = [
       "bg": [
         "https://res.cloudinary.com/kaliane/image/upload/v1652882550/InFlix/Series/bgimg/bgimg-got_aitvka.jpg"
       ],
+      "platform": "hbo",
+      "genre": "Drame",
       "_created": "2022-05-17T16:12:50.687Z",
       "_changed": "2022-05-17T16:12:50.687Z",
       "_createdby": "kevin_aliane@hotmail.fr",
@@ -281,6 +296,7 @@ const dataSeries = [
       "bg": [
         "https://res.cloudinary.com/kaliane/image/upload/v1653050598/InFlix/Series/bgimg/bgimg-wire_xhnp9p.png"
       ],
+      "platform": "hbo",
       "_created": "2022-05-17T19:52:48.495Z",
       "_changed": "2022-05-17T19:52:48.495Z",
       "_createdby": "kevin_aliane@hotmail.fr",

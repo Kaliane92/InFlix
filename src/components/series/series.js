@@ -11,7 +11,6 @@ const Serie = (props) => {
     useEffect(() => {
         const fetchData = async () => {
             const response = await axios.get(props.dataUrl);
-            console.log(response.data.episodes);
             setData(response.data.episodes);
         };
 

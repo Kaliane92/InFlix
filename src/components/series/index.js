@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import './series.css';
 import { Link } from "react-router-dom";
 import Data from '../../assets/dataSeries'
 
 const Series = () => {
+    const [series, setSeries] = useState(Data);
+    const [platform, setPlatform] = useState("netflix, hbo, primevideo, disney");
+    const modifiedData = Data.filter((e) => {
+        return e.platform.includes(platform)
+    })
     return (
         <section className='content'>
             <section className="visible">
@@ -22,7 +27,10 @@ const Series = () => {
                         </select>
                     </div>
                     <div className="form1">
-                        <select id="platform" className="form-input" name="platform">
+                        <select id="platform" className="form-input" name="platform" onChange={(e) => {
+                            setPlatform(e.target.value)
+                            setSeries(modifiedData)
+                        }}>
                             <option value="">-- Plateformes --</option>
                             <option value="netflix">Netflix</option>
                             <option value="hbo">HBO</option>
@@ -36,7 +44,7 @@ const Series = () => {
                 </div>
                 <div className="scroll-serie">
                     {
-                        Data.map((serie, key) => {
+                        series.map((serie, key) => {
                             return (
                                 <Link to={`/series/${serie.title.toLowerCase().normalize('NFD').replace(/([^a-zA-Z ]*)(\s*)/g, "")}`} key={key} className="cover" tabIndex="0">
                                     <img loading="lazy" src={serie.cover} alt={serie.title} />

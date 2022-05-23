@@ -20,7 +20,7 @@ const Slider = (props) => {
 
     return (
         <>
-            <div className='ligne'>
+            <div className='ligne' key={props.key}>
                 <Theme
                     logo={props.logo}
                     publisher={props.publisher}
@@ -56,42 +56,42 @@ const Slider = (props) => {
                                     return (
                                         <Card
                                             clé={key}
-                                            lien={`/films/${item.title.toLowerCase().normalize('NFD').replace(/([^a-zA-Z ]*)(\s*)/g, "")}`}
+                                            lien={`/films/${item.title.toLowerCase().normalize('NFD').replace(/([^a-zA-Z0-9 ]*)(\s*)/g, "")}`}
                                             miniature={item.thumb}
                                             titre={item.title}
                                         />
                                     )
-                                }) : (props.publisher === "Tolkien") ?
-                                    Tolkien.reverse().map((item, key) => {
-                                        return (
-                                            <Card
-                                                clé={key}
-                                                lien={`/films/${item.title.toLowerCase().normalize('NFD').replace(/([^a-zA-Z ]*)(\s*)/g, "")}`}
-                                                miniature={item.thumb}
-                                                titre={item.title}
-                                            />
-                                        )
-                                    }) : (props.publisher === "Star Wars") ?
-                                        StarWars.map((item, key) => {
-                                            return (
-                                                <Card
-                                                    clé={key}
-                                                    lien={`/films/${item.title.toLowerCase().normalize('NFD').replace(/([^a-zA-Z ]*)(\s*)/g, "")}`}
-                                                    miniature={item.thumb}
-                                                    titre={item.title}
-                                                />
-                                            )
-                                        }) : (props.publisher === "Wizarding") ?
-                                            Wizarding.map((item, key) => {
-                                                return (
-                                                    <Card
-                                                        clé={key}
-                                                        lien={`/films/${item.title.toLowerCase().normalize('NFD').replace(/([^a-zA-Z ]*)(\s*)/g, "")}`}
-                                                        miniature={item.thumb}
-                                                        titre={item.title}
-                                                    />
-                                                )
-                                            }) : null
+                            }) : (props.publisher === "Tolkien") ?
+                                Tolkien.reverse().map((item, key) => {
+                                    return (
+                                        <Card
+                                            clé={key}
+                                            lien={`/films/${item.title.toLowerCase().normalize('NFD').replace(/([^a-zA-Z0-9 ]*)(\s*)/g, "")}`}
+                                            miniature={item.thumb}
+                                            titre={item.title}
+                                        />
+                                    )
+                            }) : (props.publisher === "Star Wars") ?
+                                StarWars.map((item, key) => {
+                                    return (
+                                        <Card
+                                            clé={key}
+                                            lien={`/films/${item.title.toLowerCase().normalize('NFD').replace(/([^a-zA-Z0-9 ]*)(\s*)/g, "")}`}
+                                            miniature={item.thumb}
+                                            titre={item.title}
+                                        />
+                                    )
+                            }) : (props.publisher === "Wizarding") ?
+                                Wizarding.map((item, key) => {
+                                    return (
+                                        <Card
+                                            clé={key}
+                                            lien={`/films/${item.title.toLowerCase().normalize('NFD').replace(/([^a-zA-Z0-9 ]*)(\s*)/g, "")}`}
+                                            miniature={item.thumb}
+                                            titre={item.title}
+                                        />
+                                    )
+                            }) : null
                         }
                     </div>
                 </div>
