@@ -222,7 +222,7 @@ const marvel = [
         "https://res.cloudinary.com/kaliane/image/upload/v1652879585/InFlix/Marvel/thumb-spiderman_x2fq0g.png"
       ],
       "background": [
-        "https://res.cloudinary.com/kaliane/image/upload/v1652879585/InFlix/Marvel/thumb-spiderman_x2fq0g.png"
+        "https://res.cloudinary.com/kaliane/image/upload/v1652879473/InFlix/Marvel/bgimg-homecoming_rwlzqh.png"
       ],
       "release-year": "2017",
       "duration": "2:13:00",
