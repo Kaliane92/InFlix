@@ -111,3 +111,21 @@
     border: solid 4px transparent;
     background: var(--dégradé) !important;
 }
+
+@media (orientation: portrait) {
+    .contentHome {
+        padding-top: 20% !important;
+        padding-left: 0 !important;
+    }
+    .carrousel {
+        width: 100vw;
+    }
+    .carrousel p {
+        width: 85%;
+    }
+    .cta-home {
+        left: 24px;
+        width: 200px;
+        height: 60px;
+    }
+}
