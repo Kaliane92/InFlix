@@ -9,6 +9,7 @@ import './slider.css';
 
 const Slider = (props) => {
 
+
     const pictureWidth = 428 + 44;
     const [translate, setTranslate] = useState(0);
     let translateCopy = translate;

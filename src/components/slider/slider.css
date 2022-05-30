@@ -5,6 +5,7 @@
         height: fit-content;
         gap: 10px;
         padding: 20px 0 20px 0;
+        overflow: hidden;
     }
 
     .thumbnails {

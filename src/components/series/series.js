@@ -25,7 +25,7 @@ const Serie = (props) => {
                     <div className="infos">
                         <p>{props.genre}</p>
                         <p>{props.year}</p>
-                        <p>{props.season} seasons</p>
+                        <p>{props.season === 1 ? `${props.season} season` : `${props.season} seasons`}</p>
                     </div>
                     <h2 className="Titre">
                         {props.title}

@@ -4,7 +4,7 @@ import Logos from '../../assets/logos'
 
 const Films = () => {
     return (
-        <section className='content'>
+        <section data-aos="fade-left" className='content'>
         {
           Logos.map((item, index) => {
             return (

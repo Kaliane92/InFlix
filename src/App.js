@@ -2,7 +2,9 @@ import './App.css';
 import './components/sidebar/sidebar.css';
 import Cookies from 'js-cookie';
 import { Routes, Route, Link } from "react-router-dom";
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import Aos from "aos";
+import "aos/dist/aos.css"
 
 import logo from './assets/img/svg/logo.svg';
 import Homeicon from './assets/img/svg/home';
@@ -26,6 +28,11 @@ import Serie from './components/series/series'
 import Animes from './components/animes/index';
 
 function App() {
+
+  useEffect(() => {
+      Aos.init({duration: 1000});
+  }, [])
+
   const [light, setLight] = useState(true);
 
   // Cookie Darkmode
@@ -42,6 +49,10 @@ function App() {
   function supprCookie(n) {
     Cookies.remove(n);
     setLight(!light);
+  }
+
+  function Capitalize(str){
+    return str.charAt(0).toUpperCase() + str.slice(1);
   }
 
   return (
@@ -140,7 +151,7 @@ function App() {
                     title={item.title}
                     year={item.year}
                     season={item.nb_of_seasons}
-                    genre="Drame"
+                    genre={item.genre}
                     dataUrl={item.data}
                     bg={item.bg}
                   />} />
