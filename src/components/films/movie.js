@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import './movie.css'
 
 const Movie = (props) => {
+    const [play, setPlay] = useState(false);
     const bgimg = props.bg;
     return (
-        <section className='content movie' id="main-content" style={{backgroundImage: "url("+bgimg+")"}}>
+        play !== true ? <section className='content movie' id="main-content" style={{backgroundImage: "url("+bgimg+")"}}>
             <div id="sideM" className="movie-infos">
                 <img className="titleimg" src={props.logo} alt={props.titre} />
                 <div className="title">
@@ -28,11 +29,14 @@ const Movie = (props) => {
                     </div>
                 </div>
                 <div className="btn-movie">
-                    <button className="btn-play">Regarder</button>
+                    <button className="btn-play" onClick={() => setPlay(true)}>Regarder</button>
                     <button className="btn-watchlist">Watchlist</button>
                 </div>
             </div>
-        </section>
+        </section> : 
+        <video className="player" frameBorder={"0"} marginWidth={"0"} marginHeight={"0"} scrolling="no" allowFullScreen>
+             <source src={props.video} type="video/mp4" />
+        </video>
     )
 }
 

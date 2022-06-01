@@ -5,11 +5,10 @@ import { Link } from 'react-router-dom';
 
 
 const Carrousel = () => {
-
     const [slide, setSlide] = useState(0)
     setTimeout(() => {
         setSlide(slide + 1)
-    }, 10000);
+    }, 5000);
     const resetSlide = () => {
         if (slide > Data.length-1) {
             setSlide(0);
@@ -19,10 +18,12 @@ const Carrousel = () => {
 
     return (
         <>
-            <div style={{display: "flex", flexGrow: 1, width: "max-content"}}>
+            <div style={{display: "flex", flexGrow: 1, width: "max-content", position: "relative"}}>
             {
                 Data.map((item, key)=>{
                     return (
+                        <>
+                            <div className="visibleTimebar"></div>
                             <section key={key} className={slide === key ? 'carrousel' : 'notvisible'} style={{backgroundImage: `url(${item.background})`}}>
                                     <h3>{item.title}</h3>
                                     <p>{item.summary}</p>
@@ -35,6 +36,7 @@ const Carrousel = () => {
                                         <div className={slide === 4 ? 'selectedDot' : null}></div>
                                     </div>
                             </section>
+                        </>
                     )
                 })
             }
@@ -45,7 +47,7 @@ const Carrousel = () => {
                     {
                         Data.map((item, key)=>{
                             return (
-                                <img key={key} onClick={() => setSlide(key)} className={slide === key ? 'selectedNew thumbNew' : 'thumbNew'} loading="lazy" src={item.thumb_home} title={item.title} alt={item.title}></img>
+                                <img key={key} onClick={() => setSlide(key)} className={slide === key ? 'selectedNew thumbNew' : 'thumbNew'} src={item.thumb_home} title={item.title} alt={item.title}></img>
                             )
                         })
                     }

@@ -38,7 +38,7 @@
     justify-self: center;
     width: 30%;
     position: absolute;
-    top: calc( 50% - ( 80px / 2 ) );
+    top: calc( 50% - ( 182px / 2 ) );
     font-weight: 300;
     font-size: 1.8rem;
     padding: 1%;
@@ -131,6 +131,28 @@
 .selectedNew {
     background: var(--dégradé) !important;
 }
+
+@keyframes load2 {
+    from {
+        width: 0%;
+    }
+  
+    to {
+        width: 100%;
+    }
+}
+
+.visibleTimebar {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: var(--dégradé);
+    z-index: 1;
+    animation: load2 5s infinite ease-in-out;
+}
+
 
 @media (orientation: portrait) {
     .contentHome {

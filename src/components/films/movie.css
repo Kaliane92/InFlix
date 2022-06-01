@@ -87,6 +87,13 @@
 .btn-watchlist:hover {
     transform: scale(1.05);
 }
+.player {
+    padding-top: 6%;
+    padding-left: 6.5%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
 
 @media (orientation: portrait) and (max-width: 1024px) {
     #sideM {

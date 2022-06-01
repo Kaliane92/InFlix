@@ -24,6 +24,7 @@ const marvel = [
       "_version": 2,
       "genre": "",
       "lien": "https://www.youtube.com/watch?v=nHcubNwuKFA",
+      "video": "",
       "release-number": 25
     },
     {
@@ -51,6 +52,7 @@ const marvel = [
       "_version": 1,
       "genre": "",
       "lien": "https://www.youtube.com/watch?v=4l99M0zOEaA",
+      "video": "",
       "release-number": 23
     },
     {
@@ -78,6 +80,7 @@ const marvel = [
       "_version": 1,
       "genre": "",
       "lien": "https://www.youtube.com/watch?v=SFoCPkEfHEM",
+      "video": "",
       "release-number": 22
     },
     {
@@ -105,6 +108,7 @@ const marvel = [
       "_version": 2,
       "genre": "",
       "lien": "https://www.youtube.com/watch?v=bgTlt5-l-AA",
+      "video": "",
       "release-number": 21
     },
     {
@@ -132,6 +136,7 @@ const marvel = [
       "_version": 1,
       "genre": "",
       "lien": "https://www.youtube.com/watch?v=rndLWLmwgeA",
+      "video": "",
       "release-number": 20
     },
     {
@@ -159,6 +164,7 @@ const marvel = [
       "_changedby": "kevin_aliane@hotmail.fr",
       "_version": 1,
       "lien": "https://www.youtube.com/watch?v=eIWs2IUr3Vs",
+      "video": "",
       "release-number": 18
     },
     {
@@ -186,6 +192,7 @@ const marvel = [
       "_changedby": "kevin_aliane@hotmail.fr",
       "_version": 1,
       "lien": "https://www.youtube.com/watch?v=8RQpN5kQslw",
+      "video": "",
       "release-number": 17
     },
     {
@@ -213,6 +220,7 @@ const marvel = [
       "_changedby": "kevin_aliane@hotmail.fr",
       "_version": 1,
       "lien": "https://www.youtube.com/watch?v=RtG6scyBIeM",
+      "video": "",
       "release-number": 16
     },
     {
@@ -240,6 +248,7 @@ const marvel = [
       "_changedby": "kevin_aliane@hotmail.fr",
       "_version": 1,
       "lien": "https://www.youtube.com/watch?v=ejNxxSiSy9U",
+      "video": "",
       "release-number": 15
     },
     {
@@ -267,6 +276,7 @@ const marvel = [
       "_changedby": "kevin_aliane@hotmail.fr",
       "_version": 1,
       "lien": "https://www.youtube.com/watch?v=qe6EjVKba9Q",
+      "video": "",
       "release-number": 14
     },
     {
@@ -294,6 +304,7 @@ const marvel = [
       "_changedby": "kevin_aliane@hotmail.fr",
       "_version": 1,
       "lien": "https://www.youtube.com/watch?v=6N03nfXNVcQ",
+      "video": "",
       "release-number": 13
     },
     {
@@ -321,6 +332,7 @@ const marvel = [
       "_changedby": "kevin_aliane@hotmail.fr",
       "_version": 1,
       "lien": "https://www.youtube.com/watch?v=fuIIGDjEj8Q",
+      "video": "",
       "release-number": 12
     },
     {
@@ -348,6 +360,7 @@ const marvel = [
       "_changedby": "kevin_aliane@hotmail.fr",
       "_version": 1,
       "lien": "https://www.youtube.com/watch?v=Z0mPyiZ23x8",
+      "video": "",
       "release-number": 10
     },
     {
@@ -375,6 +388,7 @@ const marvel = [
       "_changedby": "kevin_aliane@hotmail.fr",
       "_version": 1,
       "lien": "https://www.youtube.com/watch?v=HbB1LC_QyK0",
+      "video": "",
       "release-number": 9
     },
     {
@@ -402,6 +416,7 @@ const marvel = [
       "_changedby": "kevin_aliane@hotmail.fr",
       "_version": 1,
       "lien": "https://www.youtube.com/watch?v=9W6HwKdexNY",
+      "video": "",
       "release-number": 8
     },
     {
@@ -429,6 +444,7 @@ const marvel = [
       "_changedby": "kevin_aliane@hotmail.fr",
       "_version": 1,
       "lien": "https://www.youtube.com/watch?v=uq4OFEwflnI",
+      "video": "",
       "release-number": 7
     },
     {
@@ -456,6 +472,7 @@ const marvel = [
       "_changedby": "kevin_aliane@hotmail.fr",
       "_version": 1,
       "lien": "https://www.youtube.com/watch?v=wnEr73Rq3Ac",
+      "video": "",
       "release-number": 6
     },
     {
@@ -483,6 +500,7 @@ const marvel = [
       "_changedby": "kevin_aliane@hotmail.fr",
       "_version": 1,
       "lien": "https://www.youtube.com/watch?v=b-kTeJhHOhc",
+      "video": "",
       "release-number": 5
     },
     {
@@ -510,6 +528,7 @@ const marvel = [
       "_changedby": "kevin_aliane@hotmail.fr",
       "_version": 1,
       "lien": "https://www.youtube.com/watch?v=IsiV9IJieMk",
+      "video": "",
       "release-number": 4
     },
     {
@@ -537,6 +556,7 @@ const marvel = [
       "_changedby": "kevin_aliane@hotmail.fr",
       "_version": 2,
       "lien": "https://www.youtube.com/watch?v=pzT3yeV9lT4",
+      "video": "",
       "release-number": 3
     },
     {
@@ -564,6 +584,7 @@ const marvel = [
       "_changedby": "kevin_aliane@hotmail.fr",
       "_version": 1,
       "lien": "https://www.youtube.com/watch?v=WckewN7vbzc",
+      "video": "",
       "release-number": 2
     },
     {
@@ -591,6 +612,7 @@ const marvel = [
       "_changedby": "kevin_aliane@hotmail.fr",
       "_version": 1,
       "lien": "https://www.youtube.com/watch?v=rDCTb9Gp2qk",
+      "video": "",
       "release-number": 1
     }
 ]

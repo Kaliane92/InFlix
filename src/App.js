@@ -139,6 +139,7 @@ function App() {
                     director={item.director}
                     mainRoles={item['main-roles']}
                     genre={item.genre}
+                    video={item.lien}
                   />} />
                 )
               })}
