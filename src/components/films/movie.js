@@ -29,8 +29,8 @@ const Movie = (props) => {
                     </div>
                 </div>
                 <div className="btn-movie">
-                    <button className="btn-play" onClick={() => setPlay(true)}>Regarder</button>
-                    <button className="btn-watchlist">Watchlist</button>
+                    <button className="btn btn-play" onClick={() => setPlay(true)}>Regarder</button>
+                    <button className="btn btn-watchlist">Watchlist</button>
                 </div>
             </div>
         </section> : 

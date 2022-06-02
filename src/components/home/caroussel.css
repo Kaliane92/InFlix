@@ -153,17 +153,42 @@
     animation: load2 5s infinite ease-in-out;
 }
 
-
-@media (orientation: portrait) {
-    .contentHome {
-        padding-top: 20% !important;
-        padding-left: 0 !important;
-    }
+@media (orientation: portrait) and (max-width: 1024px) {
     .carrousel {
+        height: 45vh;
+        background-position-y: 0%;
         width: 100vw;
     }
     .carrousel p {
+        font-size: 2rem;
+        width: 90%;
+        top: calc( 50% - ( 110px / 2 ) );
+    }
+    .display h5 {
+        font-size: 2.4rem;
+        padding-left: 6%;
+    }
+    .displayImg {
+        justify-content: center;
+        flex-wrap: wrap;
+        width: fit-content;
+        padding-bottom: 7vh;
+        z-index: 1;
+    }
+    .display {
+        height: fit-content;
+    }
+}
+
+@media (orientation: portrait) and (max-width: 600px) {
+    .display h5 {
+        font-size: 2rem;
+        padding-left: 0;
+    }
+    .carrousel p {
+        font-size: 1.4rem;
         width: 85%;
+        top: calc( 50% - ( 110px / 2 ) );
     }
     .cta-home {
         left: 24px;

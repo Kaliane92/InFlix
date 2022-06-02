@@ -5,10 +5,11 @@ import { Link } from 'react-router-dom';
 
 
 const Carrousel = () => {
+    const durée = 5000;
     const [slide, setSlide] = useState(0)
     setTimeout(() => {
         setSlide(slide + 1)
-    }, 5000);
+    }, durée);
     const resetSlide = () => {
         if (slide > Data.length-1) {
             setSlide(0);
@@ -24,7 +25,7 @@ const Carrousel = () => {
                     return (
                         <>
                             <div className="visibleTimebar"></div>
-                            <section key={key} className={slide === key ? 'carrousel' : 'notvisible'} style={{backgroundImage: `url(${item.background})`}}>
+                            <section key={key} className={slide === key ? 'carrousel' : 'notvisible'} style={{backgroundImage: `url(${item.background})`, backgroundColor: "black"}}>
                                     <h3>{item.title}</h3>
                                     <p>{item.summary}</p>
                                     <Link to={`/${item.type}/${item.title.toLowerCase().normalize('NFD').replace(/([^a-zA-Z0-9 ]*)(\s*)/g, "")}`} className='cta-home'><strong>Regarder</strong></Link>

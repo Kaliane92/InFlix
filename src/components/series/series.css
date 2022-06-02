@@ -181,7 +181,9 @@
         justify-content: center;
         gap: 30px;
     }
-    
+    .visible {
+        padding: 0 3vw;
+    }
     .cover img,
     .cover h4 {
         align-self: center;

@@ -155,7 +155,7 @@ html::-webkit-scrollbar {
     align-items: center;
     width: 100%;
     z-index: 2;
-    height: 13%;
+    height: 13vh;
     background: var(--bg);
     box-shadow: 0px 4px 12px 0 var(--shadow);
     -moz-box-shadow: 0px 4px 12px 0 var(--shadow);

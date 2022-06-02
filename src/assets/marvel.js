@@ -38,7 +38,7 @@ const marvel = [
       ],
       "release-year": "2021",
       "duration": "2:30:00",
-      "synospis": "Natasha Romanoff, alias Black Widow, revisite les moments les plus sombres de sa vie quand une sinistre conspiration liée à son passé fait surface. Poursuivie par une force déterminée à l'anéantir, Natasha est confrontée à son passé d'espionne et aux relations désastreuses qui ont jalonné sa vie longtemps avant qu'elle ne devienne un Avenger.",
+      "synospis": "Natasha Romanoff, alias Black Widow, revisite les moments les plus sombres de sa vie quand une sinistre conspiration liée à son passé fait surface. Poursuivie par une force déterminée à l'anéantir, Natasha est confrontée à son passé d'espionne.",
       "logo": [
         "https://res.cloudinary.com/kaliane/image/upload/v1652880908/InFlix/Marvel/titleimg-widow_nnfmpp.png"
       ],

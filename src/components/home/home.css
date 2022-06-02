@@ -2,10 +2,37 @@
 
 .contentHome {
     display: flex;
-    padding-top: 6%;
-    padding-left: 6.5%;
+    padding-top: 12.1vh;
+    padding-left: 6.5vw;
     height: 100%;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: flex-end;
+}
+
+@media screen and (orientation: landscape) and (max-width: 1440px) {
+    .contentHome {
+        display: flex;
+        padding-top: 12.55vh;
+        padding-left: 7vw;
+        height: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+}
+@media screen and (orientation: portrait) and (max-width: 1024px) {
+    .contentHome {
+        padding-top: 9.75vh;
+        padding-left: 0;
+        padding-bottom: 7vh;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+}
+
+@media screen and (orientation: portrait) and (max-width: 600px) {
+    .contentHome {
+        padding-top: 12.5vh;
+    }
 }
