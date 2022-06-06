@@ -63,7 +63,7 @@ const Slider = (props) => {
                                         />
                                     )
                             }) : (props.publisher === "Tolkien") ?
-                                Tolkien.reverse().map((item, key) => {
+                                Tolkien.map((item, key) => {
                                     return (
                                         <Card
                                             clé={key}
