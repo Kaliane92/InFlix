@@ -119,10 +119,17 @@ html::-webkit-scrollbar {
   /* ---------- */
 
   .content {
-    padding-top: 118px;
+    padding-top: 13vh;
     padding-left: 6.5%;
     overflow: hidden;
   }
+
+
+@media (orientation: landscape) and (max-width: 1367px) {
+  .content {
+    padding-left: 7.2vw;
+  }
+}
 
 @media (orientation: portrait) {
 

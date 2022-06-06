@@ -1,9 +1,10 @@
 @import url(../../colors.css);
 
     .richcard {
-        width: 848px;
+        width: fit-content;
+        max-width: 42vw;
         height: fit-content;
-        min-height: 162px;
+        min-height: 149px;
         display: flex;
         border-radius: 12px;
         background: #44444450;
@@ -19,14 +20,17 @@
         flex-grow: 1;
         display: flex;
         object-fit: cover;
-        max-width: 33%;
+        max-width: 30%;
+        background-color: #040404;
     }
 
     .cardRight {
-        padding: 10px 20px;
+        padding: 0 2%;
         flex-grow: 2;
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
+        height: fit-content;
     }
 
     .cardTitle {
@@ -74,7 +78,11 @@
         justify-content: space-between;
         padding: 26px 0;
     }
-
+@media screen and (orientation: landscape) and (max-width: 1441px) {
+    .richcard {
+        max-width: 48vw;
+    }
+}
 @media (orientation: portrait) {
 
     .serie {
