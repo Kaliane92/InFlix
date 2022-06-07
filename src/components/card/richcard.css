@@ -111,7 +111,7 @@
 
     .cardLeft {
         max-width: 42%;
-        min-width: unset;
+        min-width: 207px;
     }
 
     .cardRight {
