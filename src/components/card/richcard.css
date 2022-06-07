@@ -3,7 +3,9 @@
     .richcard {
         width: fit-content;
         max-width: 42vw;
-        height: 149px;
+        height: fit-content;
+        max-height: 149px;
+        min-height: 149px;
         display: flex;
         border-radius: 12px;
         background: #44444450;
