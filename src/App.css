@@ -119,7 +119,7 @@ html::-webkit-scrollbar {
   /* ---------- */
 
   .content {
-    padding-top: 13vh;
+    padding-top: 12.5vh;
     padding-left: 6.5%;
     overflow: hidden;
   }
