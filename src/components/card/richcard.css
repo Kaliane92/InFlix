@@ -3,8 +3,7 @@
     .richcard {
         width: fit-content;
         max-width: 42vw;
-        height: fit-content;
-        min-height: 149px;
+        height: 149px;
         display: flex;
         border-radius: 12px;
         background: #44444450;
@@ -110,10 +109,12 @@
 
     .cardLeft {
         max-width: 42%;
+        min-width: unset;
     }
 
     .cardRight {
         padding: 0 5%;
+        min-width: unset;
     }
 
     #sideS > .progressBarContainer {
