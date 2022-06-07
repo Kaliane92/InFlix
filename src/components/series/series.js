@@ -52,8 +52,11 @@ const Serie = (props) => {
                 <>
                     <div className="infos">
                         <p>{props.genre}</p>
-                        <p>{props.year}</p>
-                        <p>{props.season === 1 ? `${props.season} season` : `${props.season} seasons`}</p>
+                        <div style={{display: "flex", justifyContent: "space-between", width:"55%"}}>
+                            <p>{props.year}</p>
+                            <p>{props.season === 1 ? `${props.season} season` : `${props.season} seasons`}</p>
+                        </div>
+                        
                     </div>
                     <h2 className="Titre">
                         {props.title}

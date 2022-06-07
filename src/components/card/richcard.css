@@ -37,8 +37,6 @@
     }
 
     .cardTitle {
-        display: flex;
-        justify-content: space-between;
         padding: 26px 0;
     }
 
@@ -83,7 +81,7 @@
     }
 @media screen and (orientation: landscape) and (max-width: 1441px) {
     .richcard {
-        max-width: 48vw;
+        max-width: 49vw;
     }
 }
 @media (orientation: portrait) {
@@ -116,6 +114,14 @@
     .cardRight {
         padding: 0 5%;
         min-width: unset;
+    }
+
+    .cardTitle {
+        width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        line-break: anywhere;
+        font-size: 1.5rem;
     }
 
     #sideS > .progressBarContainer {

@@ -15,7 +15,7 @@ const dataSeries = [
         "https://res.cloudinary.com/kaliane/image/upload/v1653050598/InFlix/Series/bgimg/bgimg-arcane_j7jgzx.png"
       ],
       "platform": "netflix",
-      "genre": "Super-Héros, Drame, Science-Fiction, Aventure",
+      "genre": "Drame, Science-Fiction, Aventure",
       "_created": "2022-05-17T19:39:12.822Z",
       "_changed": "2022-05-17T19:39:12.822Z",
       "_createdby": "kevin_aliane@hotmail.fr",

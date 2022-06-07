@@ -7,7 +7,6 @@ const Richcard = (props) => {
             <div className="cardRight">
                 <div className="cardTitle">
                     <h4>{props.epnb}. {props.eptitle}</h4>
-                    <p>{props.epduration}</p>
                 </div>
                 <div className="progressBarContainer">
                     <div className="progressBar">
