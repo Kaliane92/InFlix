@@ -22,9 +22,11 @@ const Series = () => {
     })
     useEffect(() => {
         setSeries(modifiedDataP)
+        // eslint-disable-next-line
     }, [platform])
     useEffect(() => {
         setSeries(modifiedDataG)
+        // eslint-disable-next-line
     }, [genre])
 
     return (

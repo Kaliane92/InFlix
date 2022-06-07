@@ -100,8 +100,21 @@
 
     .richcard, .serie-infos, .episodes {
         width: 100%;
+        max-width: 100vw;
         height: fit-content;
         border-radius: 0;
+    }
+
+    .cardLeft {
+        max-width: 42%;
+    }
+
+    .cardRight {
+        padding: 0 5%;
+    }
+
+    #sideS > .progressBarContainer {
+        display: none;
     }
 
     .serie {

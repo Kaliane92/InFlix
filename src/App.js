@@ -51,9 +51,9 @@ function App() {
     setLight(!light);
   }
 
-  function Capitalize(str){
-    return str.charAt(0).toUpperCase() + str.slice(1);
-  }
+  // function Capitalize(str){
+  //   return str.charAt(0).toUpperCase() + str.slice(1);
+  // }
 
   return (
 
@@ -153,7 +153,14 @@ function App() {
                     year={item.year}
                     season={item.nb_of_seasons}
                     genre={item.genre}
-                    dataUrl={item.data}
+                    s1={item.s1_data}
+                    s2={item.s2_data}
+                    s3={item.s3_data}
+                    s4={item.s4_data}
+                    s5={item.s5_data}
+                    s6={item.s6_data}
+                    s7={item.s7_data}
+                    s8={item.s8_data}
                     bg={item.bg}
                   />} />
                 )
