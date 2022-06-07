@@ -21,7 +21,6 @@
         flex-grow: 1;
         display: flex;
         object-fit: cover;
-        width: 30%;
         max-width: 30%;
         min-width: 208px;
         background-color: #040404;
@@ -111,7 +110,7 @@
 
     .cardLeft {
         max-width: 42%;
-        min-width: 207px;
+        min-width: 164px;
     }
 
     .cardRight {
