@@ -20,13 +20,15 @@
         flex-grow: 1;
         display: flex;
         object-fit: cover;
-        max-width: 30%;
+        width: 30%;
+        min-width: 208px;
         background-color: #040404;
     }
 
     .cardRight {
         padding: 0 2%;
         flex-grow: 2;
+        min-width: 460px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
