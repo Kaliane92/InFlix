@@ -34,9 +34,17 @@ const Movie = (props) => {
                 </div>
             </div>
         </section> : 
-        <video className="player" frameBorder={"0"} marginWidth={"0"} marginHeight={"0"} scrolling="no" allowFullScreen>
-             <source src={props.video} type="video/mp4" />
-        </video>
+        <div className="player">
+            <iframe
+                src={props.video}
+                width="100%"
+                height="100%"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; fullscreen; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                >
+            </iframe>
+        </div>
     )
 }
 
