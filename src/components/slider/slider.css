@@ -55,10 +55,6 @@
 
 @media (orientation: portrait) {
 
-    .content {
-        padding: 11vh 0 9vh 0;
-    }
-
     .ligne {
         display: flex;
         flex-direction: column;

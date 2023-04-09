@@ -55,7 +55,6 @@ html::-webkit-scrollbar {
 
   .search {
     display: flex;
-    position: fixed;
     align-items: center;
     width: 100%;
     z-index: 2;
@@ -119,17 +118,10 @@ html::-webkit-scrollbar {
   /* ---------- */
 
   .content {
-    padding-top: 12.5vh;
-    padding-left: 6.5%;
     overflow: hidden;
+    padding-left: 6.5vw;
+    padding-bottom: 8vh;
   }
-
-
-@media (orientation: landscape) and (max-width: 1367px) {
-  .content {
-    padding-left: 7.2vw;
-  }
-}
 
 @media (orientation: portrait) {
 
@@ -152,13 +144,16 @@ html::-webkit-scrollbar {
     background: var(--bg);
   }
 
+  .content {
+    padding-left: 0;
+  }
+
   .spacer {
     display: none;
   }
 
   .search {
     display: flex;
-    position: fixed;
     align-items: center;
     width: 100%;
     z-index: 2;
@@ -167,9 +162,5 @@ html::-webkit-scrollbar {
     box-shadow: 0px 4px 12px 0 var(--shadow);
     -moz-box-shadow: 0px 4px 12px 0 var(--shadow);
     -webkit-box-shadow: 0px 4px 12px 0 var(--shadow);
-  }
-
-  .content {
-    padding-top: 20%;
   }
 }

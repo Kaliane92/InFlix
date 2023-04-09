@@ -16,10 +16,9 @@ const Carrousel = () => {
         } else {}
     }
     resetSlide();
-
     return (
         <>
-            <div style={{display: "flex", flexGrow: 1, width: "max-content", position: "relative"}}>
+            <section style={{display: "flex", width: "max-content", position: "relative"}} className='homeCarroussel'>
             {
                 Data.map((item, key)=>{
                     return (
@@ -41,7 +40,7 @@ const Carrousel = () => {
                     )
                 })
             }
-            </div>
+            </section>
             <section className='display'>
                 <h5>Nouveautés</h5>
                 <div className='displayImg'>
